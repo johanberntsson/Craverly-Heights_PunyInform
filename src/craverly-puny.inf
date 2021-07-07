@@ -71,6 +71,13 @@ Abbreviate " ne";
 Constant Story      "Craverly Heights";
 Constant Headline   "^An Interactive Fiction by Ryan Veeder, ported to PunyInform by Johan Berntsson^";
 
+Release 1;
+Serial "210707";
+
+! This IFID is unique for this port
+Array UUID_ARRAY string "UUID://D2780FBF-CC11-4D25-98BB-827E8FCE4C7F//";
+#Ifdef UUID_ARRAY;#Endif;
+
 Constant STATUSLINE_SCORE; Statusline score;
 
 Constant NO_SCORE = 0;

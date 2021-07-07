@@ -11,7 +11,7 @@ craverly5:
 	frotz bin/craverly-puny.z5
 
 inform:
-	~/inform-6.34-6.12.2/inform -D -v8 -w -X +lib,~/inform-6.34-6.12.2/lib -D -v8 src/craverly-puny.inf
+	inform -v8 src/craverly-puny.inf
 	mv craverly-puny.z8 bin
 	frotz bin/craverly-puny.z8
 
