@@ -1911,6 +1911,7 @@ Object Protagonist "you"
     player = Protagonist;
     ! unicode is not available in v3
     ! for v5 (and v8) we need to check if the interpreter provides unicode
+    has_unicode = 0;
 #iftrue (#version_number >= 5);
     if((0 -> 50) >= 1) {
         @check_unicode 8212 -> u1;
@@ -1918,6 +1919,6 @@ Object Protagonist "you"
         has_unicode = (u1 && u2);
     }
 #ifnot;
-    u1 = u2 = has_unicode = 0;
+    u1 = u2 = 0; ! avoid compiler warnings
 #endif;
 ];
