@@ -1,0 +1,3277 @@
+
+> LOOK
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion, to some, but to your ears it is as regular as a
+heartbeat, as usual as business. While you walk these sterile halls,
+you are in your element: the element of health. The exit is east.
+
+Pauline, pale and frail, looks up at you pleadingly from her supine
+position aboard her hospital bed.
+
+> X PAULINE
+
+You gaze down meaningfully at Pauline, at her once-soft features cast
+into sharp relief by the mysterious illness that wracks her youthful
+form.
+
+"Oh, Doctor Langridge," Pauline rasps, "Tell me some good news."
+
+"I wish I could," you say, "but the truth is that your condition is
+getting worse. And the even worse news is that your insurance won't
+pay for your procedure."
+
+Pauline's lip quivers.
+
+> X ME
+
+You are Doctor Langridge, mentor to some, friend to many, and healer
+to all of the citizens of Craverly Heights. Everyone in town knows
+your name. It is Doctor Langridge.
+
+> I
+
+You are empty handed.
+
+> X MACHINES
+
+You can't see any such thing.
+
+> X INSTRUMENTS
+
+Sorry, I don't understand what "instruments" means.
+
+> HUG PAULINE
+
+You lean down until your face almost meets Pauline's. "The Hippocratic
+Oath warns a doctor not to give into his or her feelings for a
+patient," you say, "but an oath can only be kept for so long." Pauline
+rises weakly to kiss you passionately. The moment is perfect, but it
+does not last forever.
+
+"No one can know about this," you say. Pauline nods weakly.
+
+
+
+> TALK TO PAULINE
+
+"Can't anything be done, Doctor Langridge?" Pauline asks pitifully.
+
+"I'll talk to your mother," you say, though your countenance does not
+indicate confidence.
+
+
+
+> TALK TO PAULINE
+
+"Can't anything be done, Doctor Langridge?" Pauline asks pitifully.
+
+"I'll talk to your mother," you say, though your countenance does not
+indicate confidence.
+
+
+
+> LEAVE
+
+But you aren't in anything at the moment!
+
+
+
+> OUT
+
+You can't go that way.
+
+
+
+> N
+
+You can't go that way.
+
+
+
+> L
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion, to some, but to your ears it is as regular as a
+heartbeat, as usual as business. While you walk these sterile halls,
+you are in your element: the element of health. The exit is east.
+
+Pauline, pale and frail, looks up at you pleadingly from her supine
+position aboard her hospital bed.
+
+
+
+> E
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> X SHELVES
+
+On the rack of shelves are a magnifying glass, a framed photo, a pair
+of sunglasses and a handgun.
+
+
+
+> TAKE ALL FROM SHELF
+
+magnifying glass: Removed.
+framed photo: Removed.
+pair of sunglasses: Removed.
+handgun: Removed.
+
+
+
+> X GLASS
+
+Do you mean the pair of sunglasses or the magnifying glass?
+
+
+
+> MAGNIFYING GLASS
+
+A cheap, beat-up magnifying glass.
+
+
+
+> X SUNGLASSES
+
+Grossly out-of-fashion, and as flimsy.
+
+
+
+> X PHOTO
+
+In the frame is a photo of a dog.
+
+
+
+> X DOG
+
+In the frame is a photo of a dog.
+
+
+
+> X GUN
+
+Nickel-plated. Shiny.
+
+
+
+> CHECK TO SEE IF GUN IS LOADED
+
+That is not a verb I recognize.
+
+
+
+> S
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> X BULLETIN
+
+The bulletin reads: Hey! You, with the keyboard! Let me know what
+you think of this game on Twitter (@rcveeder) or via email
+(rcveeder@me.com).
+
+Here's a tip: To finish the game, you're going to have to use the
+verb SHOW, as in ">show THING to PERSON". You might also have to
+">point THING at PERSON" at some point.
+
+Thanks for playing.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+"It looks like Gina's not here yet," you announce to the empty room.
+"I wonder where she is."
+
+The room is silent.
+
+
+
+> L
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+You glance around meaningfully. Gina is nowhere to be seen.
+
+
+
+> W
+
+You can't go that way.
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> W
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> S
+
+
+Craverly Manor
+A gargantuan portrait of the hawk-eyed and hawk-nosed Leopold Craverly
+stares down at you from its perch on the mahogany-panelled wall. The
+exit is north.
+
+Standing beneath the portrait is Leopold Craverly himself, identical
+to his own image in every way. He eyes you sternly from his perch atop
+his snake-headed cane.
+
+
+
+> TALK TO LEOPOLD
+
+"What's new over at Roland Memorial, Langridge?" Leopold asks.
+
+"It's Gina's daughter, Pauline. They can't afford the only procedure
+that will keep her alive. But, Mister Craverly, I know you are not an
+uncharitable man."
+
+Leopold lets loose a torrent of guffaws. "I think that sentence needs
+one more negative, Langridge! Of what concern to me is the situation
+of a girl I wouldn't recognize on the street?"
+
+Your response to this question is a glare like a polished silver
+dagger.
+
+
+
+> G
+
+"I beg you to reconsider Janine's plight, Mister Craverly," you say.
+
+"I think you mean Pauline. And I beg you to leave off the
+subject, Langridge!" answers Leopold in a mocking tone.
+
+
+
+> I
+
+You're carrying a handgun, a pair of sunglasses, a framed photo and a magnifying glass.
+
+> X LEOPOLD
+
+Though his hair is silver-white, and his eyes have been furrowed by a
+lifetime of avarice and cynicism, Leopold still has many years left in
+his life, and many goals left to achieve in those years, no matter
+what or who stands in his way.
+
+"I beg you to reconsider Janine's plight, Mister Craverly," you say.
+
+"I think you mean Pauline. And I beg you to leave off the
+subject, Langridge!" answers Leopold in a mocking tone.
+
+
+
+> SHOW PHOTO TO LEOPOLD
+
+"What's that there?" Craverly asks.
+
+"It's Wendell," you say. "Pauline's dog."
+
+"Ah, I see, I see. And how has he been doing?"
+
+"He died three years ago," you answer meaningfully, "Under mysterious
+circumstances."
+
+Craverly stares meaningfully back at you.
+
+
+
+> POINT MAGNIFYING AT PHOTO
+
+You point the magnifying glass squarely at the framed photo.
+
+
+
+> LOOK AT PHOTO WITH MAGNIFYING GLASS
+
+I only understood you as far as "look" but then you lost me.
+
+
+
+> X PHOTO
+
+A photo of Pauline's beloved golden retriever, Wendell. A faithful
+companion to his owner, and beloved of all citizens of Craverly
+Heights, Wendell was cut down before his time - under mysterious
+circumstances.
+
+
+
+> LOOK THROUGH MAGNIFYING GLASS
+
+You lean in for a closer look at the mahogany-panelled wall.
+
+
+
+> POINT MAGNIFYING GLASS AT LEOPOLD
+
+You point the magnifying glass squarely at Leopold Craverly.
+
+
+
+> X PHOTO WITH GLASS
+
+I only understood you as far as "x photo" but then you lost me.
+
+
+
+> N
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> E
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> S
+
+
+South Hallway
+The break room is east from here. The hallway continues north.
+
+
+
+> E
+
+
+Break Room
+An antique vending machine takes up most of the tiny room. The exit is
+west.
+
+On the table is a script.
+
+Lane is sitting around with a blank look on her face.
+
+
+
+> TAKE SCRIPT
+
+Taken.
+
+
+
+> READ SCRIPT
+
+Two pages. The first page reads:
+
+
+                          CRAVERLY HEIGHTS
+                           EPISODE # 6001
+
+If it's so easy, why don't you write it yourself?
+
+The second page is blank.
+
+
+
+> WRITE SCRIPT
+
+That is not a verb I recognize.
+
+
+
+> X LANE
+
+Lane is wearing a pink blouse.
+
+
+
+> TALK TO LANE
+
+"Hey, Lane," you say. "Shouldn't you be down at the Pizzeria?"
+
+Lane's eyes widen. "Oh, shoot, sorry! Sorry!"
+
+She continues to apologize as she rushes out into the hall.
+
+
+
+> W
+
+
+South Hallway
+The break room is east from here. The hallway continues north.
+
+
+
+> N
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+Gina is here, resolutely straightening things out in anticipation of
+the day's business.
+
+
+
+> TALK TO GINA
+
+"Pauline's insurance has run out," you say. Gina's expression descends
+into concern.
+
+"She needs a procedure, or she'll die," you continue. "Is there any
+way you can pay for it?"
+
+"This pizzeria is barely paying for its own bills," says Gina. "All
+the money I could have spent to save Pauline's life, I spent on my
+dream of becoming a restauranteur."
+
+"We all have to live with our mistakes," you say, "but Pauline may not
+have long to live with yours."
+
+Gina tries to hide her face.
+
+
+
+> SHOW PHOTO TO GINA
+
+Gina regards the photo sadly. "Oh, Wendell, you big lug. Why'd you
+have to leave us?" she asks.
+
+"You don't have any clues to the mystery of his death?" you ask.
+
+Gina regards you angrily. "Are you accusing me of something?" she
+asks.
+
+"Of course not," you answer.
+
+
+
+> POINT MAGNIFYING GLASS AT TABLECLOTH
+
+You point the magnifying glass squarely at the white tablecloth.
+
+
+
+> WEAR SUNGLASSES
+
+This is not a suitable venue for you to be altering your appearance so
+drastically and cavalierly.
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> WEAR SUNGLASSES
+
+You are now wearing the pair of sunglasses.
+
+
+
+> X ME
+
+You have no idea what you're doing.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+Gina is here, resolutely straightening things out in anticipation of
+the day's business.
+
+
+
+> TALK TO GINA
+
+"Hello, Gina," you say, your teeth flashing impishly from between your
+wily lips.
+
+Gina's face is a stoic cliff, carved from stone. "Sid. You're supposed
+to be in a federal prison."
+
+Your cackling is like an incoming thunderstorm. "People seem to think
+so! But I figure, wherever I am is where I'm supposed to be." You
+smirk.
+
+
+
+> X ME
+
+You are Sidney Langridge, feared and hated in the town of Craverly
+Heights and beyond. Only in appearance are you identical to Doctor
+Langridge, for in words and deeds you are the polar opposite of your
+do-gooder twin.
+
+
+
+> TALK TO GINA
+
+"What are you still doing here?" asks Gina.
+
+"Wouldn't you like to know?" is your menacing reply.
+
+
+
+> POINT GUN AT GINA
+
+You point the handgun squarely at Gina.
+
+Gina reels in shock at the sight of the gun that is pointed her way.
+She cringes audibly. You cackle ominously.
+
+
+
+
+> TALK TO GINA
+
+"What are you still doing here?" asks Gina.
+
+"Wouldn't you like to know?" is your menacing reply.
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> W
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> S
+
+
+Craverly Manor
+A gargantuan portrait of the hawk-eyed and hawk-nosed Leopold Craverly
+stares down at you from its perch on the mahogany-panelled wall. The
+exit is north.
+
+Standing beneath the portrait is Leopold Craverly himself, identical
+to his own image in every way. He eyes you sternly from his perch atop
+his snake-headed cane.
+
+
+
+> TALK TO LEOPOLD
+
+"Hello, there, Leo!" you say.
+
+"Out of prison again," Leopold begins, and you say "Naturally!" as he
+says "I see." You both stop talking, and Leopold coughs, waiting for
+you to talk to him again.
+
+
+
+> TALK TO LEOPOLD
+
+"Hello, there, Leo!" you say.
+
+"Out of prison again," Leopold says, and then he is quiet for a
+moment.
+
+"Naturally!" you say, too late, and Leopold shakes his head. "Sorry.
+Let's try it one more time."
+
+You shuffle your feet.
+
+
+
+> TALK TO LEOPOLD
+
+"Hello, there, Leo!" you say.
+
+"Out of prison again," Leopold says, and you say "Naturally!"
+
+Leopold nods.
+
+
+
+> TALK TO LEOPOLD
+
+"Hello, there, Leo!" you say.
+
+"Out of prison again," Leopold says, and you say "Naturally!"
+
+Leopold nods.
+
+
+
+> SHOW PHOTO TO LEO
+
+"You remember Wendell, right?"
+
+"Of course," Craverly sneers, "That's Gina's dog. I seem to recall it
+perished under mysterious circumstances?"
+
+"Cut the bull, Leo. We both know that I made Janine hit Wendell with
+her car after you saw him digging down at the train yard where we
+buried the jewels. I mean, Pauline."
+
+Craverly chortles. "And now you think I have the jewels? Well, even if
+I do, they're staying with me."
+
+
+
+> POINT GUN AT LEO
+
+You point the handgun squarely at Leopold Craverly.
+
+"I want those jewels, old man!" you say, menacing the silver-haired
+millionaire with the gleaming barrel of your murderous weapon. "Are
+you going to play along, or are you going to die?"
+
+"All right, all right! Here!" Leopold draws a satchel out of his
+pocket and tosses it to you. "They're all there. Just leave me be!"
+
+You feel the heft of the satchel in your hand and smile a smug smile.
+
+
+
+> X JEWELS
+
+You can't see any such thing.
+
+
+
+> X SATCHEL
+
+It's a small suede pouch, as luxurious as the prize it contains.
+
+
+
+> N
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> OPEN SATCHEL
+
+Yeah, it's empty.
+
+
+
+> E
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+Gina is here, resolutely straightening things out in anticipation of
+the day's business.
+
+
+
+> SHOW PHOTO TO GINA
+
+"Where did you get that photo of my daughter's beloved golden
+retriever Wendell?" Gina asks indignantly and accusingly. You lick
+your lips menacingly.
+
+"So it's a crime to have a photo of a dog now?" you ask. "What is this
+world coming to?"
+
+Gina glares at you.
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> REMOVE GLASSES
+
+You take off the pair of sunglasses.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> N
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> W
+
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion, to some, but to your ears it is as regular as a
+heartbeat, as usual as business. While you walk these sterile halls,
+you are in your element: the element of health. The exit is east.
+
+Pauline, pale and frail, looks up at you pleadingly from her supine
+position aboard her hospital bed.
+
+
+
+> SHOW SATCHEL TO PAULINE
+
+"What's in that bag, Doctor Langridge?" asks sweet, innocent Janine.
+
+You consider the question with all the weight it merits.
+
+"I have here some medicine. But it won't help you. It's a special
+medicine, for a different patient. I shouldn't tell you too much about
+it. Never mind."
+
+
+
+> SHOW PHOTO TO PAULINE
+
+At the sight of her beloved departed dog, Pauline's expression sinks
+still further into the mire of melancholy.
+
+"Oh, Wendell," she mourns, on the verge of weeping. "If only you were
+here, I wouldn't feel nearly so awful. If I ever find out who took you
+from me..."
+
+"But Wendell's death was ruled an accident," you say.
+
+Pauline fixes you with as steely a glare as she can muster in her
+depleted state. "You don't believe that, do you?" she asks.
+
+"No," you say.
+
+
+
+> E
+
+
+North Hallway
+Janine's hospital room is west from here. The hallway continues south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> WEAR GLASSES
+
+You are now wearing the pair of sunglasses.
+
+
+
+> W
+
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion. The exit is east.
+
+Pauline, pale and frail, looks up at you confusedly from her supine
+position aboard her hospital bed.
+
+
+
+> TALK TO PAULINE
+
+"Sidney!" Pauline's eyes widen as they detect your identity. "You
+shouldn't be here! What if the doctor, your twin, sees you?"
+
+"You leave the nerd to me, sugarbabe. I've been dealing with that
+clamshell since the day we were both born."
+
+
+
+> SHOW PHOTO TO PAULINE
+
+Salty, unhappy tears well up in Pauline's eyes as she regards the
+image of her beloved dog. "I miss him so much," she says.
+
+"But you remember why we killed him, don't you?" you ask.
+
+"Of course. Wendell kept trying to dig up the place where we buried
+the jewels."
+
+"Yeah, well, right after I got out of prison I went back to that
+place, where we buried the jewels. But someone got there first.
+Someone dug them up."
+
+Pauline gasps. "But who else knew about the jewels?"
+
+"Only one person," you menacingly say.
+
+
+
+> SHOW SATCHEL TO PAULINE
+
+"The jewels!" Pauline gasps, her breathlessness as much a factor of
+her surprise as a consequence of her illness. "Then you were able to
+convince..."
+
+"Mister Craverly, yes. The jewels are mine - ours, now."
+
+"Sidney, we can sell the jewels for the money for the medical
+treatment that will save my life!" Pauline's eyes are huge and wet
+beneath the hospital lights as they plaintively gaze upward into your
+own.
+
+"Sugarbabe, those were my thoughts exactly."
+
+PRESS ANY KEY TO CONTINUE
+
+???
+
+"Why is Sidney nice all of a sudden?"
+
+"Well, I thought about just abandoning Janine, but I realized I had a
+chance to push things in a bold new direction."
+
+"It's Pauline. And that's not gonna work. People love Sidney the evil
+twin; they're not going to respond well to Sidney the altruist.
+Besides, Pauline has to stay sick until Lisa has her baby."
+
+"Oh. Do we need to shoot the whole thing again?"
+
+"There's no time. We'll figure something out."
+
+
+
+    *** Right after we hire a writer. ***
+
+
+Would you like to RESTART, RESTORE or QUIT?
+
+
+
+
+Craverly Heights
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion, to some, but to your ears it is as regular as a
+heartbeat, as usual as business. While you walk these sterile halls,
+you are in your element: the element of health. The exit is east.
+
+Pauline, pale and frail, looks up at you pleadingly from her supine
+position aboard her hospital bed.
+
+
+
+> TALK TO PAULINE
+
+"Oh, Doctor Langridge," Pauline rasps, "Tell me some good news."
+
+"I wish I could," you say, "but the truth is that your condition is
+getting worse. And the even worse news is that your insurance won't
+pay for your procedure."
+
+Pauline's lip quivers.
+
+
+
+> I
+
+You are empty handed.
+
+
+
+> E
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> X SHELVES
+
+On the rack of shelves are a magnifying glass, a framed photo, a pair
+of sunglasses and a handgun.
+
+
+
+> GET ALL FROM SHELVES
+
+magnifying glass: Removed.
+framed photo: Removed.
+pair of sunglasses: Removed.
+handgun: Removed.
+
+
+
+> X MAGNIFYING
+
+A cheap, beat-up magnifying glass.
+
+
+
+> S
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+"It looks like Gina's not here yet," you announce to the empty room.
+"I wonder where she is."
+
+The room is silent.
+
+
+
+> X FLAG
+
+The tricolor stands straight and proud and wide and true for all to
+see, a symbol of the deep respect and affection that Gina feels toward
+her heritage.
+
+
+
+> X TABLECLOTHS
+
+Like an expectant canvas is each tablecloth, ready to receive the
+masterpiece that is every one of Gina's pizzas.
+
+
+
+> WEAR TABLECLOTH
+
+(first taking the white tablecloth)
+Moving that is someone else's job.
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> W
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> S
+
+
+Craverly Manor
+A gargantuan portrait of the hawk-eyed and hawk-nosed Leopold Craverly
+stares down at you from its perch on the mahogany-panelled wall. The
+exit is north.
+
+Standing beneath the portrait is Leopold Craverly himself, identical
+to his own image in every way. He eyes you sternly from his perch atop
+his snake-headed cane.
+
+
+
+> X PORTRAIT
+
+The portrait may resemble Craverly even more than does Craverly
+himself. Art imitates life, yes: but life is messy, and inaccurate;
+art is perfect, and reflects the real world as it really is.
+
+
+
+> LOOK AT PORTRAIT THOUGH GLASS
+
+I only understood you as far as "look" but then you lost me.
+
+
+
+> POINT MAGNIFYING AT PORTRAIT
+
+You point the magnifying glass squarely at the gargantuan portrait.
+
+
+
+> LOOK THROUGH MAGNIFYING
+
+You lean in for a closer look at the gargantuan portrait.
+
+
+
+> TALK TO LEO
+
+"What's new over at Roland Memorial, Langridge?" Leopold asks.
+
+"It's Gina's daughter, Pauline. They can't afford the only procedure
+that will keep her alive. But, Mister Craverly, I know you are not an
+uncharitable man."
+
+Leopold lets loose a torrent of guffaws. "I think that sentence needs
+one more negative, Langridge! Of what concern to me is the situation
+of a girl I wouldn't recognize on the street?"
+
+Your response to this question is a glare like a polished silver
+dagger.
+
+
+
+> TALK TO LEO
+
+"I beg you to reconsider Janine's plight, Mister Craverly," you say.
+
+"I think you mean Pauline. And I beg you to leave off the
+subject, Langridge!" answers Leopold in a mocking tone.
+
+
+
+> POINT MAGNIFYING AT LEO
+
+You point the magnifying glass squarely at Leopold Craverly.
+
+
+
+> LOOK THROUGH MAGNIFYING
+
+You lean in for a closer look at the gargantuan portrait.
+
+
+
+> X PORTRAIT
+
+The portrait may resemble Craverly even more than does Craverly
+himself. Art imitates life, yes: but life is messy, and inaccurate;
+art is perfect, and reflects the real world as it really is.
+
+
+
+> MAGNIFY LEO
+
+That is not a verb I recognize.
+
+
+
+> LOOK THROUGH GLASS AT LEO
+
+You can't see any such thing.
+
+
+
+> SHOW GUN TO LEO
+
+"A cute toy," Craverly says, clearly unimpressed by the instrument of
+death you present to him. "Be careful with it; you might break a
+window!" He guffaws enthusiastically at his own flimsy joke.
+
+
+
+> SHOW GLASSES TO LEO
+
+Leopold Craverly doesn't seem interested.
+
+
+
+> TALK TO LEO
+
+"I beg you to reconsider Janine's plight, Mister Craverly," you say.
+
+"I think you mean Pauline. And I beg you to leave off the
+subject, Langridge!" answers Leopold in a mocking tone.
+
+
+
+> N
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> E
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> S
+
+
+South Hallway
+The break room is east from here. The hallway continues north.
+
+
+
+> E
+
+
+Break Room
+An antique vending machine takes up most of the tiny room. The exit is
+west.
+
+On the table is a script.
+
+Lane is sitting around with a blank look on her face.
+
+
+
+> X SCRIPT
+
+Two pages. The first page reads:
+
+
+                          CRAVERLY HEIGHTS
+                           EPISODE # 6001
+
+If it's so easy, why don't you write it yourself?
+
+The second page is blank.
+
+
+
+> GET IT
+
+Taken.
+
+
+
+> SHOW IT TO LANE
+
+Lane has already seen the script. She rolls her eyes. "I know, right?"
+
+
+
+> X VENDING
+
+There's one sticky note on the machine that says "OUT OF ORDER", and
+there's another sticky note that says "THIS MACHINE OWES ME $7000".
+
+
+
+> KICK MACHINE
+
+That is not a verb I recognize.
+
+
+
+> TALK TO LANE
+
+"Hey, Lane," you say. "Shouldn't you be down at the Pizzeria?"
+
+Lane's eyes widen. "Oh, shoot, sorry! Sorry!"
+
+She continues to apologize as she rushes out into the hall.
+
+
+
+> TAKE NOTE
+
+You can't lug this vending machine around. It's the real thing.
+
+
+
+> W
+
+
+South Hallway
+The break room is east from here. The hallway continues north.
+
+
+
+> N
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+Gina is here, resolutely straightening things out in anticipation of
+the day's business.
+
+
+
+> TALK TO LANE
+
+"Pauline's insurance has run out," you say. Gina's expression descends
+into concern.
+
+"She needs a procedure, or she'll die," you continue. "Is there any
+way you can pay for it?"
+
+"This pizzeria is barely paying for its own bills," says Gina. "All
+the money I could have spent to save Pauline's life, I spent on my
+dream of becoming a restauranteur."
+
+"We all have to live with our mistakes," you say, "but Pauline may not
+have long to live with yours."
+
+Gina tries to hide her face.
+
+
+
+> TALK TO GINA
+
+"What about Pauline's father?" you ask. "Could he pay for the
+procedure?"
+
+"Doc, Pauline's father isn't in Antibes." Your jaw slackens at the
+sound of Gina's revelation. "The fact is, I don't know who Pauline's
+father is."
+
+Your expression is one of shock.
+
+
+
+> TALK TO GINA
+
+"What about Pauline's father?" you ask. "Could he pay for the
+procedure?"
+
+"Doc, Pauline's father isn't in Antibes." Your jaw slackens at the
+sound of Gina's revelation. "The fact is, I don't know who Pauline's
+father is."
+
+Your expression is one of shock.
+
+
+
+> SHOW PHOTO TO GINA
+
+Gina regards the photo sadly. "Oh, Wendell, you big lug. Why'd you
+have to leave us?" she asks.
+
+"You don't have any clues to the mystery of his death?" you ask.
+
+Gina regards you angrily. "Are you accusing me of something?" she
+asks.
+
+"Of course not," you answer.
+
+
+
+> TALK TO GINA
+
+"What about Pauline's father?" you ask. "Could he pay for the
+procedure?"
+
+"Doc, Pauline's father isn't in Antibes." Your jaw slackens at the
+sound of Gina's revelation. "The fact is, I don't know who Pauline's
+father is."
+
+Your expression is one of shock.
+
+
+
+> SHOW GUN TO GINA
+
+Gina regards your gun with a skeptic's pair of eyes. "Why would a
+doctor need a gun?" she asks.
+
+"We doctors need a lot of things," you answer meaningfully.
+
+
+
+> SHOW SCRIPT TO GINA
+
+Gina is utterly boggled by the papers you present to her. "I have no
+idea what this is," she says. "Did you get this back at the hospital?"
+
+"Yes, Gina," you say. Of course you did.
+
+"Then maybe they'll hold some interest to Pauline. If she has the
+strength to read them," Gina adds bitterly.
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> N
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> W
+
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion, to some, but to your ears it is as regular as a
+heartbeat, as usual as business. While you walk these sterile halls,
+you are in your element: the element of health. The exit is east.
+
+Pauline, pale and frail, looks up at you pleadingly from her supine
+position aboard her hospital bed.
+
+
+
+> X JANINE
+
+You gaze down meaningfully at Pauline, at her once-soft features cast
+into sharp relief by the mysterious illness that wracks her youthful
+form.
+
+"Can't anything be done, Doctor Langridge?" Pauline asks pitifully.
+
+"I'll talk to your mother," you say, though your countenance does not
+indicate confidence.
+
+
+
+> X LISA
+
+Sorry, I don't understand what "lisa" means.
+
+
+
+> SHOW SCRIPT TO PAULINE
+
+You place the papers gingerly in Pauline's delicate hands.
+
+"Are these...the test results?" Pauline asks.
+
+"Yes, Janine," you say. Of course they are.
+
+"What do they say?"
+
+You bite your lip thoughtfully. "I still need to analyze them," you
+say. "I'll let you know once I'm finished."
+
+
+
+> X SCRIPT
+
+There is nothing special about the set of test results.
+
+
+
+> READ IT
+
+There is nothing special about the set of test results.
+
+
+
+> E
+
+
+North Hallway
+Janine's hospital room is west from here. The hallway continues south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> S
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> S
+
+
+South Hallway
+The break room is east from here. The hallway continues north.
+
+
+
+> N
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> W
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> S
+
+
+Craverly Manor
+A gargantuan portrait of the hawk-eyed and hawk-nosed Leopold Craverly
+stares down at you from its perch on the mahogany-panelled wall. The
+exit is north.
+
+Standing beneath the portrait is Leopold Craverly himself, identical
+to his own image in every way. He eyes you sternly from his perch atop
+his snake-headed cane.
+
+
+
+> SHOW SCRIPT TO LEO
+
+"What's this?" Leopold asks, eyeing the papers with inexplicable
+contempt.
+
+"These are test results," you say. "Pauline's test results."
+
+"Ah! I will attempt an impersonation of someone who cares, then: What
+do they say?"
+
+You glare at the old man, at his hateful face. "I haven't figured that
+out. Yet."
+
+"Of course! I expect nothing more from the greatest doctor in Craverly
+Heights." Leopold guffaws.
+
+
+
+> N
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> E
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> N
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> W
+
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion, to some, but to your ears it is as regular as a
+heartbeat, as usual as business. While you walk these sterile halls,
+you are in your element: the element of health. The exit is east.
+
+Pauline, pale and frail, looks up at you pleadingly from her supine
+position aboard her hospital bed.
+
+
+
+> POINT MAGNIFYING AT SCRIPT
+
+You point the magnifying glass squarely at the set of test results.
+
+
+
+> LOOK THROUGH MAGNIFYING
+
+You lean in for a closer look at nothing in particular.
+
+
+
+> ANALYZE SCRIPT
+
+That is not a verb I recognize.
+
+
+
+> LOOK THROUGH MAGNIFYING AT SCRIPT
+
+You can't see any such thing.
+
+
+
+> READ SCRIPT
+
+There is nothing special about the set of test results.
+
+
+
+> SHOW PHOTO TO PAULINE
+
+At the sight of her beloved departed dog, Pauline's expression sinks
+still further into the mire of melancholy.
+
+"Oh, Wendell," she mourns, on the verge of weeping. "If only you were
+here, I wouldn't feel nearly so awful. If I ever find out who took you
+from me..."
+
+"But Wendell's death was ruled an accident," you say.
+
+Pauline fixes you with as steely a glare as she can muster in her
+depleted state. "You don't believe that, do you?" she asks.
+
+"No," you say.
+
+
+
+> USE MAGNIFYING
+
+That is not a verb I recognize.
+
+
+
+> X BED
+
+For all its convenience-enhancing technological features, this bed is
+still a detestable prison in the doe-eyes of its tenant, the invalid
+Pauline.
+
+
+
+> ANALYZE RESULTS
+
+That is not a verb I recognize.
+
+
+
+> TALK TO PAULINE
+
+"Please let me know if you find out about those test results," Pauline
+pleads.
+
+
+
+> E
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> S
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+Gina is here, resolutely straightening things out in anticipation of
+the day's business.
+
+
+
+> TALK TO GINA
+
+"Please let me know if there's any news from the hospital," Gina says,
+trying her best not to break down into an avalanche of motherly tears.
+
+
+
+> SHOW RESULTS TO GINA
+
+"I wanted to show you these test results," you say, thrusting the
+papers in to Gina's motherly hands. She looks them over with an
+expression that changes from skeptical, to interested, to astonished.
+
+"Doc! This means..."
+
+You lean in closer.
+
+"This means..." Gina stammers, "Pauline's father is..."
+
+Your eyes widen. Of course!
+
+
+
+> TALK TO GINA
+
+"What are you still doing here?" Gina cries. "Pauline needs to know
+about her real father! And so does...her father.
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> N
+
+
+North Hallway
+Janine's hospital room is west from here. The hallway continues south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> W
+
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion, to some, but to your ears it is as regular as a
+heartbeat, as usual as business. While you walk these sterile halls,
+you are in your element: the element of health. The exit is east.
+
+Pauline, pale and frail, looks up at you pleadingly from her supine
+position aboard her hospital bed.
+
+
+
+> TALK TO PAULINE
+
+Pauline looks up at you, beautiful tears welling in her still more
+beautiful eyes. "Please, Doctor Langridge! Talk to my father! He might
+be able to help!"
+
+
+
+> E
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> S
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> W
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> S
+
+
+Craverly Manor
+A gargantuan portrait of the hawk-eyed and hawk-nosed Leopold Craverly
+stares down at you from its perch on the mahogany-panelled wall. The
+exit is north.
+
+Standing beneath the portrait is Leopold Craverly himself, identical
+to his own image in every way. He eyes you sternly from his perch atop
+his snake-headed cane.
+
+
+
+> SHOW RESULTS TO LEO
+
+"What's this?" Leopold asks, eyeing the papers with inexplicable
+trepidation.
+
+"These are test results. Pauline's test results," you say, extremely
+meaningfully. "They constitute conclusive proof that you are Pauline's
+father."
+
+The weight of this revelation nearly knocks Leopold onto the floor. He
+grasps his cane all the tighter, and mutters:
+
+"Nineteen years ago... The train tunnel collapse!"
+
+"The underground gases that seeped into the tunnel caused amnesia in
+all of the passengers," you explain. "Nobody on the train could
+remember what happened before the rescue team arrived. But now we know
+about one thing that definitely did happen. You and Gina conceived a
+child, a child that desperately needs a medical procedure she can't
+afford."
+
+"I'll pay every cent!" Leopold is on the verge of tears. "I have a
+daughter! The Craverly line will go on!"
+
+PRESS ANY KEY TO CONTINUE
+
+???
+
+"And fade to black. See? Everything worked out fine."
+
+"So Pauline's gonna be okay?"
+
+"Of course! We were never gonna kill her off. She has to stay in that
+bed until Lisa has her baby, but we'll figure that out."
+
+The director leans back and sighs. "Now, you guys did a good job out
+there today. I don't want to diminish the enormity of your
+accomplishment. But before we get working on #6002, we gotta get one
+thing done."
+
+
+
+    *** We gotta hire a flippin' writer. ***
+
+
+
+
+Would you like to RESTART, RESTORE or QUIT?
+
+
+
+
+Craverly Heights
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion, to some, but to your ears it is as regular as a
+heartbeat, as usual as business. While you walk these sterile halls,
+you are in your element: the element of health. The exit is east.
+
+Pauline, pale and frail, looks up at you pleadingly from her supine
+position aboard her hospital bed.
+
+
+
+> TALK TO PAULINE
+
+"Oh, Doctor Langridge," Pauline rasps, "Tell me some good news."
+
+"I wish I could," you say, "but the truth is that your condition is
+getting worse. And the even worse news is that your insurance won't
+pay for your procedure."
+
+Pauline's lip quivers.
+
+
+
+> G
+
+"Can't anything be done, Doctor Langridge?" Pauline asks pitifully.
+
+"I'll talk to your mother," you say, though your countenance does not
+indicate confidence.
+
+
+
+> G
+
+"Can't anything be done, Doctor Langridge?" Pauline asks pitifully.
+
+"I'll talk to your mother," you say, though your countenance does not
+indicate confidence.
+
+
+
+> HUG PAULINE
+
+You lean down until your face almost meets Pauline's. "The Hippocratic
+Oath warns a doctor not to give into his or her feelings for a
+patient," you say, "but an oath can only be kept for so long." Pauline
+rises weakly to kiss you passionately. The moment is perfect, but it
+does not last forever.
+
+"No one can know about this," you say. Pauline nods weakly.
+
+
+
+> E
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> X SHELVES
+
+On the rack of shelves are a magnifying glass, a framed photo, a pair
+of sunglasses and a handgun.
+
+
+
+> GET ALL
+rack of shelves: That belongs where it is.
+
+> GET ALL FROM SHELVES
+
+magnifying glass: Removed.
+framed photo: Removed.
+pair of sunglasses: Removed.
+handgun: Removed.
+
+
+
+> X PHOTO
+
+In the frame is a photo of a dog.
+
+
+
+> X FRAME
+
+Sorry, I don't understand what "frame" means.
+
+
+
+> S
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> S
+
+
+South Hallway
+The break room is east from here. The hallway continues north.
+
+
+
+> E
+
+
+Break Room
+An antique vending machine takes up most of the tiny room. The exit is
+west.
+
+On the table is a script.
+
+Lane is sitting around with a blank look on her face.
+
+
+
+> TALK TO LANE
+
+"Hey, Lane," you say. "Shouldn't you be down at the Pizzeria?"
+
+Lane's eyes widen. "Oh, shoot, sorry! Sorry!"
+
+She continues to apologize as she rushes out into the hall.
+
+
+
+> GET SCRIPT
+
+Taken.
+
+
+
+> W
+
+
+South Hallway
+The break room is east from here. The hallway continues north.
+
+
+
+> N
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> READ BULLETIN
+
+The bulletin reads: Hey! You, with the keyboard! Let me know what
+you think of this game on Twitter (@rcveeder) or via email
+(rcveeder@me.com).
+
+Here's a tip: To finish the game, you're going to have to use the
+verb SHOW, as in ">show THING to PERSON". You might also have to
+">point THING at PERSON" at some point.
+
+Thanks for playing.
+
+
+
+> W
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> S
+
+
+Craverly Manor
+A gargantuan portrait of the hawk-eyed and hawk-nosed Leopold Craverly
+stares down at you from its perch on the mahogany-panelled wall. The
+exit is north.
+
+Standing beneath the portrait is Leopold Craverly himself, identical
+to his own image in every way. He eyes you sternly from his perch atop
+his snake-headed cane.
+
+
+
+> TALK TO LEO
+
+"What's new over at Roland Memorial, Langridge?" Leopold asks.
+
+"It's Gina's daughter, Pauline. They can't afford the only procedure
+that will keep her alive. But, Mister Craverly, I know you are not an
+uncharitable man."
+
+Leopold lets loose a torrent of guffaws. "I think that sentence needs
+one more negative, Langridge! Of what concern to me is the situation
+of a girl I wouldn't recognize on the street?"
+
+Your response to this question is a glare like a polished silver
+dagger.
+
+
+
+> SHOW SCRIPT TO HIM
+
+"What's this?" Leopold says, eyeing the papers with inexplicable
+contempt. "Some document you found at the hospital?"
+
+"Yes," you say.
+
+"Then I can safely assume that it does not concern me!" Craverly
+punctuates his statement with a triumphant guffaw.
+
+
+
+> N
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> PUT ON GLASSES
+
+You are now wearing the pair of sunglasses.
+
+
+
+> S
+
+
+Craverly Manor
+A gargantuan portrait of the hawk-eyed and hawk-nosed Leopold Craverly
+stares down at you from its perch on the mahogany-panelled wall. The
+exit is north.
+
+Standing beneath the portrait is Leopold Craverly himself, identical
+to his own image in every way. He eyes you sternly from his perch atop
+his snake-headed cane.
+
+
+
+> TALK TO LEO
+
+"Hello, there, Leo!" you say.
+
+"Out of prison again," Leopold begins, and you say "Naturally!" as he
+says "I see." You both stop talking, and Leopold coughs, waiting for
+you to talk to him again.
+
+
+
+> G
+
+"Hello, there, Leo!" you say.
+
+"Out of prison again," Leopold says, and then he is quiet for a
+moment.
+
+"Naturally!" you say, too late, and Leopold shakes his head. "Sorry.
+Let's try it one more time."
+
+You shuffle your feet.
+
+
+
+> G
+
+"Hello, there, Leo!" you say.
+
+"Out of prison again," Leopold says, and you say "Naturally!"
+
+Leopold nods.
+
+
+
+> SHOW SCRIPT TO LEO
+
+"What's that you've got there?" Leopold asks.
+
+You smirk with unconscionable smugness. "It's a script. I'm gonna be a
+star," you say.
+
+"I imagine you must think so. But you're no star, Sidney. You're a
+black hole."
+
+You grimace at the disquieting veracity of Leopold's words.
+
+
+
+> N
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> E
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+Gina is here, resolutely straightening things out in anticipation of
+the day's business.
+
+
+
+> TALK TO GINA
+
+"Hello, Gina," you say, your teeth flashing impishly from between your
+wily lips.
+
+Gina's face is a stoic cliff, carved from stone. "Sid. You're supposed
+to be in a federal prison."
+
+Your cackling is like an incoming thunderstorm. "People seem to think
+so! But I figure, wherever I am is where I'm supposed to be." You
+smirk.
+
+
+
+> G
+
+"What are you still doing here?" asks Gina.
+
+"Wouldn't you like to know?" is your menacing reply.
+
+
+
+> SHOW SCRIPT TO GINA
+
+"This is the deed to my new condo," you tell Gina. She cranes her head
+to get a better look at the mysterious papers while maintaining a safe
+distance from your crime-ridden form.
+
+"I hope it's far away from here," she says.
+
+"Nice try," you say, "But I'll never tell the likes of you where it
+is!"
+
+
+
+> STUDY SCRIPT
+
+That is not a verb I recognize.
+
+
+
+> READ SCRIPT WITH MAGNIFYING
+
+I think you wanted to say "read something in something". Please try again.
+
+
+
+> READ SCRIPT
+
+There is nothing special about the couple sheets of paper.
+
+
+
+> X IT
+
+There is nothing special about the couple sheets of paper.
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> W
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> S
+
+
+Craverly Manor
+A gargantuan portrait of the hawk-eyed and hawk-nosed Leopold Craverly
+stares down at you from its perch on the mahogany-panelled wall. The
+exit is north.
+
+Standing beneath the portrait is Leopold Craverly himself, identical
+to his own image in every way. He eyes you sternly from his perch atop
+his snake-headed cane.
+
+
+
+> TALK TO LEO
+
+"Hello, there, Leo!" you say.
+
+"Out of prison again," Leopold says, and you say "Naturally!"
+
+Leopold nods.
+
+
+
+> SHOW GUN TO LEO
+
+"A cute toy," Craverly says, clearly unimpressed by the instrument of
+death you present to him. "Be careful with it; you might break a
+window!" He guffaws enthusiastically at his own flimsy joke.
+
+
+
+
+> SHOOT LEO
+
+"Come now, Sidney, calm yourself!" the old man cries, but it is too
+late for him. You fire the gun into his heart, the heart that could
+never bring itself to feel love. It will never feel anything again.
+
+Craverly falls to the floor, dead.
+
+
+
+> X LEO
+
+Leopold thought he would live long enough to see all of his dreams
+come true. Now you know that his belief was false.
+
+
+
+> SEARCH LEO
+
+"I wish... I wish I could search leo, but it's too late," you
+announce, your voice weighed by the burden of monstrous regret brought
+on by the enormity of the fact that you have brought from the realm of
+the unspeakable into the realm of the true: "He's dead."
+
+
+
+> N
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> E
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+Gina is here, resolutely straightening things out in anticipation of
+the day's business.
+
+
+
+> SHOW GUN TO GINA
+
+"Is that the gun you used to shoot the mayor?" Gina asks.
+
+"Nah, this gun is innocent," you say, quickly adding: "And so am I!"
+
+
+
+> SHOOT GINA
+
+Your gun screams as if in anger as it ejects its bullet straight into
+Gina's mortal coil. If she had any last words, it is too late for them
+now.
+
+She falls to the floor with a horrible slump, as dead as her Italian
+role model, Julius Caesar.
+
+
+
+> SEARCH GINA
+
+"I wish... I wish I could search Gina, but it's too late," you
+announce, your voice weighed by the burden of monstrous regret brought
+on by the enormity of the fact that you have brought from the realm of
+the unspeakable into the realm of the true: "She's dead."
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> N
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> W
+
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion. The exit is east.
+
+Pauline, pale and frail, looks up at you confusedly from her supine
+position aboard her hospital bed.
+
+
+
+> TALK TO PAULINE
+
+"Sidney!" Pauline's eyes widen as they detect your identity. "You
+shouldn't be here! What if the doctor, your twin, sees you?"
+
+"You leave the nerd to me, sugarbabe. I've been dealing with that
+clamshell since the day we were both born."
+
+
+
+> HUG PAULINE
+
+You plant a long, meaningful kiss on Pauline's quivering lips. "It's
+been so long," she sighs.
+
+
+
+> SHOW SCRIPT TO HER
+
+"What's that?" Pauline asks.
+
+You shake the papers triumphantly. "This is my certificate of release!
+From prison! They give you a certificate that says you aren't supposed
+to be incarcerated anymore, in case a cop tries to toss you back in
+the slammer."
+
+"I didn't know that," says Pauline.
+
+
+
+> TALK TO PAULINE
+
+"You came back for me, Sidney," Pauline says, her chest working
+double-time to force the words out of her lungs.
+
+"I sure did, sugarbabe."
+
+
+
+> SHOW GUN TO HER
+
+"Nice gun," Pauline says.
+
+"Thanks," you say, menacingly.
+
+
+
+> SHOW PHOTO TO HER
+
+Salty, unhappy tears well up in Pauline's eyes as she regards the
+image of her beloved dog. "I miss him so much," she says.
+
+"But you remember why we killed him, don't you?" you ask.
+
+"Of course. Wendell kept trying to dig up the place where we buried
+the jewels."
+
+"Yeah, well, right after I got out of prison I went back to that
+place, where we buried the jewels. But someone got there first.
+Someone dug them up."
+
+Pauline gasps. "But who else knew about the jewels?"
+
+"Only one person," you menacingly say.
+
+
+
+> SHOW PHOTO TO HER
+
+"Have you talked to the one other person who knew about the jewels
+yet?" Pauline asks.
+
+
+
+> TELL PAULINE ABOUT LEO
+
+This provokes no reaction.
+
+
+
+> SHOOT PAULINE
+
+You fire into Pauline's chest. The crack of the gunshot is drowned out
+by her desperate scream - but, an instant later, her screaming ends.
+She's dead.
+
+PRESS ANY KEY TO CONTINUE
+
+???
+
+"So what happens now?"
+
+"First of all, none of that happened."
+
+"You mean like, we're gonna say it was a dream?"
+
+"No, I mean we're going to scrap all of it and start from scratch.
+Nobody had a dream, nobody got shot, nothing. We're going to air a
+rerun. Then we're going to hire a new writer, and we're going to do a
+real episode, with a plot. And you are forbidden
+from improvising. Never again."
+
+
+
+    *** Tune in next week! ***
+
+
+
+Would you like to RESTART, RESTORE or QUIT?
+
+Craverly Heights
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion, to some, but to your ears it is as regular as a
+heartbeat, as usual as business. While you walk these sterile halls,
+you are in your element: the element of health. The exit is east.
+
+Pauline, pale and frail, looks up at you pleadingly from her supine
+position aboard her hospital bed.
+
+
+> X ME
+
+You are Doctor Langridge, mentor to some, friend to many, and healer
+to all of the citizens of Craverly Heights. Everyone in town knows
+your name. It is Doctor Langridge.
+
+
+
+> X PAULINE
+
+You gaze down meaningfully at Pauline, at her once-soft features cast
+into sharp relief by the mysterious illness that wracks her youthful
+form.
+
+"Oh, Doctor Langridge," Pauline rasps, "Tell me some good news."
+
+"I wish I could," you say, "but the truth is that your condition is
+getting worse. And the even worse news is that your insurance won't
+pay for your procedure."
+
+Pauline's lip quivers.
+
+
+
+> KISS HER
+
+You lean down until your face almost meets Pauline's. "The Hippocratic
+Oath warns a doctor not to give into his or her feelings for a
+patient," you say, "but an oath can only be kept for so long." Pauline
+rises weakly to kiss you passionately. The moment is perfect, but it
+does not last forever.
+
+"No one can know about this," you say. Pauline nods weakly.
+
+
+
+> E
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> GET ALL FROM SHELVES
+
+magnifying glass: Removed.
+framed photo: Removed.
+pair of sunglasses: Removed.
+handgun: Removed.
+
+
+
+> S
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> WEAR GLASSES
+
+You are now wearing the pair of sunglasses.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> S
+
+
+South Hallway
+The break room is east from here. The hallway continues north.
+
+
+
+> E
+
+
+Break Room
+An antique vending machine takes up most of the tiny room. The exit is
+west.
+
+On the table is a script.
+
+Lane is sitting around with a blank look on her face.
+
+
+
+> KISS LANE
+
+Lane pushes you away. "Save it for later, all right?"
+
+
+
+> W
+
+
+South Hallway
+The break room is east from here. The hallway continues north.
+
+
+
+> REMOVE GLASSES
+
+You take off the pair of sunglasses.
+
+
+
+> E
+
+
+Break Room
+An antique vending machine takes up most of the tiny room. The exit is
+west.
+
+On the table is a script.
+
+Lane is sitting around with a blank look on her face.
+
+
+
+> KISS LANE
+
+Lane pushes you away. "Save it for later, all right?"
+
+
+
+> TALK TO LANE
+
+"Hey, Lane," you say. "Shouldn't you be down at the Pizzeria?"
+
+Lane's eyes widen. "Oh, shoot, sorry! Sorry!"
+
+She continues to apologize as she rushes out into the hall.
+
+
+
+> W
+
+
+South Hallway
+The break room is east from here. The hallway continues north.
+
+
+
+> N
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> E
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+Gina is here, resolutely straightening things out in anticipation of
+the day's business.
+
+
+
+> KISS GINA
+
+"What are you doing?" Gina asks as you approach her.
+
+"Let me show you," you say, as you put your arms around her body and
+tenderly meet her lips against yours. Gina yields passionately to your
+embrace.
+
+But then the moment is over. "This can never happen again," Gina
+whispers.
+
+
+
+> G
+
+You kiss Gina again. Again you feel the warmth of bodily contact that
+you have been craving for so long. Again Gina says that this can never
+happen again.
+
+
+
+> G
+
+You kiss Gina again. Again you feel the warmth of bodily contact that
+you have been craving for so long. Again Gina says that this can never
+happen again.
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> WEAR GLASSES
+
+You are now wearing the pair of sunglasses.
+
+
+
+> N
+
+
+Gina's Pizzeria
+The tender light of the morning - or the very early evening - casts
+itself
+softly against the downy linen of spotless white tablecloths and the
+Italian flag hanging from the wall. The exit is south.
+
+Gina is here, resolutely straightening things out in anticipation of
+the day's business.
+
+
+
+> KISS GINA
+
+Gina rebuffs your amorous advance. "Sidney, I wouldn't kiss you with
+my dead husband's mouth."
+
+
+
+> S
+
+
+East Hallway
+Gina's Pizzeria is north from here. The hallway continues west.
+
+
+
+> W
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> W
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> REMOVE GLASSES
+
+You take off the pair of sunglasses.
+
+
+
+> S
+
+
+Craverly Manor
+A gargantuan portrait of the hawk-eyed and hawk-nosed Leopold Craverly
+stares down at you from its perch on the mahogany-panelled wall. The
+exit is north.
+
+Standing beneath the portrait is Leopold Craverly himself, identical
+to his own image in every way. He eyes you sternly from his perch atop
+his snake-headed cane.
+
+
+
+> KISS LEO
+
+You rush boldly up to Leopold and, before he can react, you softly
+grab his head and press your lips against his lips. The meeting of
+your bodies is an explosive event, but it is not accompanied by a
+meeting of hearts.
+
+"Oh, Langridge," Leopold mutters, still embraced by your arms, "I left
+my chances for love behind a long time ago. Don't turn out like
+me - don't hold out hope for something that can never be."
+
+With an expression of tremendous emotion, you step away from him.
+
+
+
+> N
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> WEAR GLASSES
+
+You are now wearing the pair of sunglasses.
+
+
+
+> S
+
+
+Craverly Manor
+A gargantuan portrait of the hawk-eyed and hawk-nosed Leopold Craverly
+stares down at you from its perch on the mahogany-panelled wall. The
+exit is north.
+
+Standing beneath the portrait is Leopold Craverly himself, identical
+to his own image in every way. He eyes you sternly from his perch atop
+his snake-headed cane.
+
+
+
+> KISS LEO
+
+Leopold pushes you away. "Forget it, Sid. I'm not one of those young
+people who melts in half when a criminal comes on to him."
+
+
+
+> N
+
+
+West Hallway
+Craverly Manor is south from here. The hallway continues east.
+
+
+
+> E
+
+
+Hallway Intersection
+Nobody's around.
+
+The hallway runs north, south, east, and west from here.
+
+A non-diegetic bulletin is posted on the wall.
+
+
+
+> N
+
+
+North Hallway
+Pauline's hospital room is west from here. The hallway continues
+south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> W
+
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion. The exit is east.
+
+Pauline, pale and frail, looks up at you confusedly from her supine
+position aboard her hospital bed.
+
+
+
+> WEAR MAGNIFYING
+
+That doesn't seem to be something you can wear.
+
+
+
+> KISS PAULINE
+
+You plant a long, meaningful kiss on Pauline's quivering lips. "It's
+been so long," she sighs.
+
+
+
+> SHOOT ME
+
+With the pistol aimed at your temple, you almost pull the deadly
+trigger that could free the world from the scourge of the existence of
+the dastardly Sidney Langridge, but you pull the gun away from your
+head, suddenly.
+
+"Sorry to disappoint," you announce, "But Sid Langridge is gonna be
+around for a while longer. I've got things to do."
+
+You sneer menacingly.
+
+
+
+> E
+
+
+North Hallway
+Janine's hospital room is west from here. The hallway continues south.
+
+There's a rack of shelves standing against this end of the hall.
+
+
+
+> REMOVE GLASSES
+
+You take off the pair of sunglasses.
+
+
+
+> W
+
+
+Roland Memorial Hospital
+The whirring and chirping of medical instruments is all around - a
+worrying commotion, to some, but to your ears it is as regular as a
+heartbeat, as usual as business. While you walk these sterile halls,
+you are in your element: the element of health. The exit is east.
+
+Pauline, pale and frail, looks up at you pleadingly from her supine
+position aboard her hospital bed.
+
+
+
+> SHOOT ME
+
+"I've had it," you announce. "I can't go on. All the secrets. All the
+lies. I'm finished. This is the end for your beloved Doctor Langridge.
+And little do you know: the secret of Wendell's death dies with me!"
+
+BLAM
+
+PRESS ANY KEY TO CONTINUE
+
+???
+
+"Why. Why did you do that."
+
+"It's like I said! I can't go on. I quit. Craverly Heights is a
+sinking ship, and this rat is jumping off."
+
+"First of all, that remark is offensive to rats. Second, you can't
+quit. Your contract has you in this studio for the next three years."
+
+"Well, what are you going to do? Doctor Langridge is dead."
+
+"Oh, that's not a problem..."
+
+
+
+    *** We're bringing back your evil twin. ***
+
+
+
+Would you like to RESTART, RESTORE or QUIT? quit
+[Hit any key to exit.]
+
+
