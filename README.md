@@ -7,7 +7,7 @@ and now I have ported it to PunyInform.
 
 I have tried to stay true to the original disposition of the source code to make it possible to compare the original Inform 7 vs Dialog vs ZIL vs PunyInform.
 
-[Screenshot](https://github.com/johanberntsson/Craverly-Heights_PunyInform/master/screenshot.png)
+![Screenshot](https://github.com/johanberntsson/Craverly-Heights_PunyInform/blob/main/screenshot.png?raw=true)
 
 The file obviously contains lot of spoilers so be sure to try the original game if you not already done that. There are seven different endings, try finding them all!
 
