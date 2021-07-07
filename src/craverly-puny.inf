@@ -1906,17 +1906,18 @@ Object Protagonist "you"
         capacity MAX_CARRIED,
     has concealed animate proper transparent;
 
-[Initialise u1 u2 v;
+[Initialise u1 u2;
     lookmode = 2; ! VERBOSE
     player = Protagonist;
     ! unicode is not available in v3
     ! for v5 (and v8) we need to check if the interpreter provides unicode
 #iftrue (#version_number >= 5);
-    v = (0->50); ! standard revision number
-    @check_unicode 8212 -> u1;
-    @check_unicode 10020 -> u2;
-    has_unicode = (u1 && u2 && v >= 1);
+    if((0 -> 50) >= 1) {
+        @check_unicode 8212 -> u1;
+        @check_unicode 10020 -> u2;
+        has_unicode = (u1 && u2);
+    }
 #ifnot;
-    v = u1 = u2 = has_unicode = 0;
+    u1 = u2 = has_unicode = 0;
 #endif;
 ];
