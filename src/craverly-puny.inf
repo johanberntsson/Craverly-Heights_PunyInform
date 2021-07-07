@@ -181,21 +181,30 @@ Constant MSG_TAKE_SCENERY 1008;
 
 Include "puny.h";
 
-! unicode is not available in v3
-! for v5 (and v8) we need to check if the interpreter provides unicode
-Global has_unicode = 0;
-#iftrue (#version_number > 3);
-    !TODO
-#endif;
+Global has_unicode;
 
 ! This writes emdash (unicode 8212) if possible, otherwise " - "
 [ u8212;
-    if(has_unicode == 0) print " - ";
+#iftrue (#version_number >= 5);
+    if(has_unicode) {
+        @print_unicode 8212;
+        return;
+    }
+#endif;
+    print " - ";
 ];
 
 ! This writes 3 * B039 (unicode 10020) if possible, otherwise "???"
 [ u10020;
-    if(has_unicode == 0) print "???";
+#iftrue (#version_number >= 5);
+    if(has_unicode) {
+        @print_unicode 10020;
+        @print_unicode 10020;
+        @print_unicode 10020;
+        return;
+    }
+#endif;
+    print "???";
 ];
 
 
@@ -1897,7 +1906,16 @@ Object Protagonist "you"
         capacity MAX_CARRIED,
     has concealed animate proper transparent;
 
-[Initialise;
+[Initialise u1 u2;
     lookmode = 2; ! VERBOSE
     player = Protagonist;
+    ! unicode is not available in v3
+    ! for v5 (and v8) we need to check if the interpreter provides unicode
+#iftrue (#version_number >= 5);
+    @check_unicode 8212 -> u1;
+    @check_unicode 10020 -> u2;
+    has_unicode = (u1 && u2);
+#ifnot;
+    u1 = u2 = has_unicode = 0;
+#endif;
 ];
