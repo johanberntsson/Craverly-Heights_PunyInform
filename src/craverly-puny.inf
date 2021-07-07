@@ -516,8 +516,8 @@ Array ginaspeech_3 table 1
 ! Part - Roland Memorial Hospital
 
 Object Hospital "Roland Memorial Hospital"
-	with
-		description [;
+    with
+        description [;
             print "The whirring and chirping of medical instruments 
                 is all around", (u8212) 0, "a worrying commotion";
             if(Sunglasses hasnt worn)
