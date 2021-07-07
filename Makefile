@@ -1,12 +1,12 @@
 all: craverly3
 
 craverly3:
-	inform +../lib -v3 src/craverly-puny.inf
+	inform +../lib -v3 -e src/craverly-puny.inf
 	mv craverly-puny.z3 bin
 	frotz bin/craverly-puny.z3
 
 craverly5:
-	inform +../lib -v5 src/craverly-puny.inf
+	inform +../lib -v5 -e src/craverly-puny.inf
 	mv craverly-puny.z5 bin
 	frotz bin/craverly-puny.z5
 
