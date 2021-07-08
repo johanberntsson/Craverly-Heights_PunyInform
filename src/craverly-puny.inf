@@ -207,32 +207,48 @@ Global has_unicode;
     print "???";
 ];
 
-
-! this is an implementation of the (one-of),(or),(stopping)
-! feature of I7. It requires an array table with the
-! various options, where the first element is the counter
-! which should be set to 1 initially. For example
-! Array example table 1 "hello" "goodbye";
-! ...
-! print (string) oneof_stopping(example), "^";
-[ oneof_stopping options;
+! This is an implementation of the (one-of),(or),(stopping)
+! feature of I7. The routine takes an array with messages
+! (string or routines) and a flag which controls if the message
+! should be followed by a newline. It always return true.
+!
+! The messages are stored in an array table, where the first
+! element is the counter which should be set to 1 initially.
+! For example
+!     Array example table 1 "hello" "goodbye";
+!     oneof_stopping(example, true);
+!
+[ oneof_stopping options add_newline;
     if((options --> 1 + 1) <= options --> 0) {
         options --> 1 = 1 + options --> 1;
     }
-    return options --> (options --> 1);
+    return oneof_print(options --> (options --> 1), add_newline);
 ];
 
 ! this is an implementation of the (one-of),(or),(thenrandom)
 ! feature of I7. See oneof_stopping for the options format
-[ oneof_thenrandom options max;
+! The array may contain both string and routines,
+! and the routine will always return true.
+[ oneof_thenrandom options add_newline max msg;
     max = options --> 0;
     if((options --> 1 + 1) <= max) {
         options --> 1 = 1 + options --> 1;
+        msg =  options --> (options --> 1);
     } else {
         ! end of list reached, return random entry
-        return options --> (1 + random(max - 1));
+        msg = options --> (1 + random(max - 1));
     }
-    return options --> (options --> 1);
+    return oneof_print(msg, add_newline);
+];
+
+! help routine to oneof_stopping and oneof_thenrandom
+[ oneof_print msg add_newline;
+    if(msg ofclass Routine) 
+        msg();
+    else
+        print (string) msg;
+    if(add_newline) @new_line;
+    rtrue;
 ];
 
 ! Volume - The World
@@ -620,7 +636,7 @@ Object Pauline "Pauline" Hospital
             if(Sunglasses has worn) {
                 print_ret (string) oneof_stopping(paulinekiss_1);
             } else {
-                print_ret (string) oneof_stopping(paulinekiss_2);
+                return oneof_stopping(paulinekiss_2, true);
             }
         ], 
     has female proper animate;
@@ -692,8 +708,7 @@ Object Portrait "gargantuan portrait" CraverlyManor
 
 Object Wall "mahogany-panelled wall" CraverlyManor
     with
-        !name 'walls' 'mahogany' 'wood' 'panel' 'panels'
-        !     'mahogany-panelled' 'wall',
+        !name 'walls' 'mahogany' 'wood' 'panel' 'panels' 'mahogany-panelled' 'wall',
         parse_name [ i;
             while(NextWord() == 'mahogany-panelled' or 'wall' or 'walls' or 'mahogany' or 'wood' or 'panel' or 'panels') i++;
             return i;
@@ -1125,7 +1140,7 @@ Object FramedPhoto "framed photo" Shelves
  
 Object Sunglasses "pair of sunglasses" Shelves
     with 
-        !name 'sunglasses' 'glasses' 'shades' 'glass' 'shade' 'pair' 'of' 'them'
+        !name 'sunglasses' 'glasses' 'shades' 'glass' 'shade' 'pair' 'of' 'them',
         parse_name [ i;
             while(NextWord() == 'sunglasses' or 'glasses' or 'shades' or 'glass' or 'shade' or 'pair' or 'of' or 'them') i++;
             return i;
@@ -1467,9 +1482,19 @@ Object Table "table" Breakroom
 
 Array script_1 table 1
     ! ONE-OF
-"~I've finished analyzing your results,~ you say, passing the papers to Pauline. She inspects them closely.^^~As you can see, the tests don't apply to you specifically. They also have something to do with the identity of your father.~^^Pauline looks up from the paper, her eyes wide with amazement.^^~Now, I need those back, for reasons I think you can guess.~ You pull the test results out of her hands."
+    "~I've finished analyzing your results,~ you say, passing the papers
+    to Pauline. She inspects them closely.^^
+    ~As you can see, the tests don't apply to you specifically. They also
+    have something to do with the identity of your father.~^^
+    Pauline looks up from the paper, her eyes wide with amazement.^^
+    ~Now, I need those back, for reasons I think you can guess.~ You pull
+    the test results out of her hands."
     ! OR
-    "Pauline frowns. ~I've seen the results, Doctor Langridge,~ she says, ~But have you shown them to...my father?~^^~I just wanted to make sure that's what you wanted,' you reply.^^~It is,~ says Pauline.";
+    "Pauline frowns. ~I've seen the results, Doctor Langridge,~ she says,
+    ~But have you shown them to...my father?~^^
+    ~I just wanted to make sure that's what you wanted,' you reply.^^
+    ~It is,~ says Pauline.";
+
 Object Script "script" Table
     with
         !name 'script' 'sheet' 'sheets' 'paper' 'papers' 'test' 'result' 'results' 
