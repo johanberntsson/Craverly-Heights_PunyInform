@@ -290,6 +290,7 @@ Extend 'look' * 'under' noun -> LookUnder;
 Extend 'look' * 'through' noun -> Search;
 
 Extend 'push' first * scenery -> Take;
+Extend 'take' * multiinside 'on' noun -> Remove;
 
 Extend 'give' first * held 'to' creature -> Show;
 
