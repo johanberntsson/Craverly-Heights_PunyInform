@@ -1138,13 +1138,14 @@ Object FramedPhoto "framed photo" Shelves
  
 ! Section - The Pair of Sunglasses
  
-Object Sunglasses "pair of sunglasses" Shelves
+Object Sunglasses "sunglasses" Shelves
     with 
         !name 'sunglasses' 'glasses' 'shades' 'glass' 'shade' 'pair' 'of' 'them',
         parse_name [ i;
             while(NextWord() == 'sunglasses' or 'glasses' or 'shades' or 'glass' or 'shade' or 'pair' or 'of' or 'them') i++;
             return i;
         ],
+        article "a pair of",
         description [;
             if(location has backstage) {
                 "Grossly out-of-fashion, and as flimsy.";
@@ -1165,7 +1166,7 @@ Object Sunglasses "pair of sunglasses" Shelves
                 appearance so drastically and cavalierly.";
             }
         ],
-    has clothing;
+    has clothing pluralname;
 
 ! Section - The Handgun
  
