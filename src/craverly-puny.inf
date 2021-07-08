@@ -194,6 +194,18 @@ Global has_unicode;
     print " - ";
 ];
 
+[ fixed_letter_spacing; font off; ];
+[ variable_letter_spacing; font on; ];
+#iftrue (#version_number >= 4);
+[ italic_type; style underline; ]; ! or bold?
+[ roman_type; style roman; ];
+#ifnot;
+! no fancy text variations in v3
+[ italic_type; ];
+[ roman_type; ];
+#endif;
+
+
 ! This writes 3 * B039 (unicode 10020) if possible, otherwise "???"
 [ u10020;
 #iftrue (#version_number >= 5);
@@ -485,15 +497,20 @@ Object Gina "Gina"
         ],
     has female proper animate;
 
-Array ginaspeech_1 table 1
-    ! ONE-OF
+[ gina1; 
+    print 
     "~You can cut the act, Gina. I know that you know that me 
     and Janine killed Wendell the dog because he knew where we buried the 
-    jewels - the jewels that you dug up in the train yard while I
+    jewels", (u8212) 0, "the jewels that you dug up in the train yard while I
     was in prison,~ you say, holding up the photo of Wendell as if it were 
     Exhibit A in a courtroom of crime.^^~Maybe that's all 
     true, or maybe not,~ Gina says, ~but I'm not handing over those 
-    jewels.~^^You grimace."
+    jewels.~^^You grimace.";
+];
+
+Array ginaspeech_1 table 1
+    ! ONE-OF
+    gina1
     ! OR
     "~The jewels are mine, Sid~' Gina says haughtily, her pink blouse
     rippling with satisfaction.";
@@ -732,16 +749,22 @@ Object Wall "mahogany-panelled wall" CraverlyManor
     }
 ];
 
-Array leopoldkiss_1 table 1
-    ! ONE-OF
+[ leo2;
+    print
     "You rush boldly up to Leopold and, before he can react, 
     you softly grab his head and press your lips against his lips. The 
     meeting of your bodies is an explosive event, but it is not accompanied 
     by a meeting of hearts.^^
     ~Oh, Langridge,~ Leopold mutters, still embraced by your arms, 
-    ~I left my chances for love behind a long time ago. Don't turn out
-    like me - don't hold out hope for something that can never be.~^^
-    With an expression of tremendous emotion, you step away from him."
+    ~I left my chances for love behind a long time ago.
+    Don't turn out like me", (u8212) 0,
+    "don't hold out hope for something that can never be.~^^
+    With an expression of tremendous emotion, you step away from him.";
+];
+
+Array leopoldkiss_1 table 1
+    ! ONE-OF
+    leo2
     ! OR
     "Leopold allows you to kiss him once more, but you come no closer to
     melting the diamond cage that surrounds his paralytic soul.";
@@ -763,6 +786,14 @@ Array leopoldspeak_1 table 1
     ~Out of prison again,~ Leopold says, and you say ~Naturally!~^^
     Leopold nods.";
 
+[ leo1;
+    print 
+    "~I beg you to reconsider Janine's plight, Mister Craverly,~ you say.^^
+    ~I think you mean ", (italic_type) 0, "Pauline", (roman_type) 0, 
+    ". And I beg you to leave off the subject,
+    Langridge!~ answers Leopold in a mocking tone.";
+];
+
 Array leopoldspeak_2 table 1
     ! ONE-OF
     "~What's new over at Roland Memorial, Langridge?~ Leopold asks.^^
@@ -774,9 +805,7 @@ Array leopoldspeak_2 table 1
     of a girl I wouldn't recognize on the street?~^^
     Your response to this question is a glare like a polished silver dagger."
     ! OR
-    "~I beg you to reconsider Janine's plight, Mister Craverly,~ you say.^^
-    ~I think you mean Pauline. And I beg you to leave off the subject,
-    Langridge!~ answers Leopold in a mocking tone.";
+    leo1;
 
 Array leopoldask_1 table 1
     ! ONE-OF
@@ -1338,8 +1367,9 @@ Verb 'shoot'
     ~You mean like, we're gonna say it was a dream?~^^
     ~No, I mean we're going to scrap all of it and start from scratch.
     Nobody had a dream, nobody got shot, nothing. We're going to air a
-    rerun. Then we're going to hire a new writer, and we're going to do
-    a real episode, with a plot. And you are forbidden from improvising.
+    rerun. Then we're going to hire a new writer, and we're going to do a ",
+    (italic_type) 0, "real", (roman_type) 0, " episode, with a plot. And ",
+    (italic_type) 0, "you", (roman_type) 0, " are forbidden from improvising.
     Never again.~";
 ];
 
@@ -1419,14 +1449,16 @@ Object Bulletin "non-diegetic bulletin" HallwayIntersection
         name 'non-diegetic' 'bulletin',
         initial
             "A non-diegetic bulletin is posted on the wall.",
-        description
-            "The bulletin reads: Hey! You, with the keyboard! Let me know 
+        description [;
+            "The bulletin reads: ", (italic_type) 0, 
+            "Hey! You, with the keyboard! Let me know 
             what you think of this game on Twitter (@@64rcveeder) or via
             email (rcveeder@@64me.com).^^Here's a tip: To finish the game, 
             you're going to have to use the verb SHOW, as in 
             ~>show THING to PERSON~. You might also have to 
             ~>point THING at PERSON~ at some point.^^
-            Thanks for playing.",
+            Thanks for playing.", (roman_type) 0;
+        ],
         before [;
         Examine: rfalse;
         default: "You're not supposed to pay too much attention to that.";
@@ -1687,15 +1719,11 @@ Object Script "script" Table
         Examine:
             if(location has backstage) {
                 print "Two pages. The first page reads:^^";
-                font off;
-#iftrue (#version_number > 3);
-                style bold;
-#endif;
-                print "  CRAVERLY HEIGHTS^  EPISODE # 6001^^  If it's so easy, why don't you write it yourself?^^";
+                print (fixed_letter_spacing) 0, 
+                    "CRAVERLY HEIGHTS^EPISODE # 6001^^
+                    If it's so easy, why don't you write it yourself?^^",
+                    (variable_letter_spacing) 0;
                 font on;
-#iftrue (#version_number > 3);
-                style roman;
-#endif;
                 "The second page is blank.";
             }
         ];
