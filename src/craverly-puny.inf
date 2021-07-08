@@ -1251,9 +1251,10 @@ Verb 'aim' 'point'
     if(second == Handgun) if(AfterRoutines()) rtrue;
 ];
 
-Verb 'shoot'
+Verb 'shoot' 'fire'
     * -> ShootVague
-    * noun -> Shoot;
+    * noun -> Shoot
+    * 'at' noun -> Shoot;
 
 [ ShootVagueSub;
     if(Handgun in player) <<Shoot Handgun>>;
