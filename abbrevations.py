@@ -58,12 +58,12 @@ if (NEW_GAMETEXT_FORMAT == 0):
 MIN_SCORE = 15
 
 # How many do you want?
-NUMBER_ABBR = 2   # anything bigger than 64 but smaller than 96 is possible with Inform 6.35, using "MAX_ABBREVS=96; MAX_DYNAMIC_STRINGS=0;"
+NUMBER_ABBR = 96   # anything bigger than 64 but smaller than 96 is possible with Inform 6.35, using "MAX_ABBREVS=96; MAX_DYNAMIC_STRINGS=0;"
 
 # One-char strings can be 4 unit longs (for instance ";"), so you could save 2 units per occurence; however at the date of writing, Inform refuses to abbreviate strings of length 0 or 1...
 # So starting at 2 is a good idea for now
 MIN_LEN = 2
-MAX_LEN = 6
+MAX_LEN = 20
 
 
 # Helper function (weight of a zchar)

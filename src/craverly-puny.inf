@@ -1,70 +1,9 @@
 !% -~S
 !% $OMIT_UNUSED_ROUTINES=1
+!% $MAX_ABBREVS=96
+!% $MAX_DYNAMIC_STRINGS=0
 
-Abbreviate ". ";
-Abbreviate ", ";
-Abbreviate "Pauline";
-Abbreviate "You ";
-Abbreviate "~ you say";
-Abbreviate "Leopold ";
-Abbreviate "Craverly";
-Abbreviate "the ";
-Abbreviate "'s ";
-Abbreviate "Gina";
-Abbreviate "~^^";
-Abbreviate "ing ";
-Abbreviate "'t ";
-Abbreviate "Langridge";
-Abbreviate "The";
-Abbreviate ".^^";
-Abbreviate "that ";
-Abbreviate "to ";
-Abbreviate "'re ";
-Abbreviate "Sidney";
-Abbreviate "Wendell";
-Abbreviate "is ";
-Abbreviate "But ";
-Abbreviate "our ";
-Abbreviate "of ";
-Abbreviate "~ you a";
-Abbreviate "~I ";
-Abbreviate "nd ";
-Abbreviate " you ";
-Abbreviate "the";
-Abbreviate "ing";
-Abbreviate "ourse";
-Abbreviate "s a";
-Abbreviate "s h";
-Abbreviate "tion";
-Abbreviate "say";
-Abbreviate "d a";
-Abbreviate "jewel";
-Abbreviate "Wha";
-Abbreviate "Doctor";
-Abbreviate "~ she";
-Abbreviate "test resul";
-Abbreviate "Janine";
-Abbreviate "Lane";
-Abbreviate "her";
-Abbreviate " in";
-Abbreviate " be";
-Abbreviate " ca";
-Abbreviate " no";
-Abbreviate " ha";
-Abbreviate " for";
-Abbreviate " co";
-Abbreviate " are";
-Abbreviate " ma";
-Abbreviate " you";
-Abbreviate " on";
-Abbreviate " again";
-Abbreviate " asks";
-Abbreviate " al";
-Abbreviate " long";
-Abbreviate " that";
-Abbreviate " wi";
-Abbreviate " from";
-Abbreviate " ne";
+Abbreviate " the " " you" "^^~" "Pauline" "You " " to " ", " " that" "Leopold " "Craverly" "ing " ". " "n't " "'s " " of " ".~^^" "Gina" " is " " Langridge" ",~" "her" " say" "his " "The" "?~" " and " "thing" " with " "jewels" " Wendell" " test results" " in" "'re " " again" "I " "meaningfully" "Sidney" "tion" "your " "menacingly" " for " ".~" " from " " have " " the" "~What" "ight" "ing" " are" "ed " "^^" "s." "er " "!~" " a " "Of course" "But " " expression" " can " "~I" " con" " no" " Doctor Langridg" "all" " as" "ould" "yourself" "ent" " she" " do" " out" "know" " it" "some" "e." " already" "the papers" " mysterious " " about " " what " " think" " prison" "you announce" " Janine" "I'm " " on" " re" " around" " be" "You" "ere we buried" "ough" "and" " hospital" "That" " look" ;
 
 ! Volume - Boring
 
