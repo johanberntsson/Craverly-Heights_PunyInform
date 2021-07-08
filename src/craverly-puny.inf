@@ -409,12 +409,12 @@ Object Gina "Gina"
             if(Sunglasses has worn) 
                 "Gina rebuffs your amorous advance. ~Sidney, I wouldn't kiss
                 you with my dead husband's mouth.~";
-            print_ret (string) oneof_stopping(ginakiss_1);
+            return oneof_stopping(ginakiss_1, true);
         Talk:
             if(Sunglasses has worn) {
-                print_ret (string) oneof_stopping(ginaspeech_2);
+                return oneof_stopping(ginaspeech_2, true);
             } else if(prog == 0) {
-                print_ret (string) oneof_stopping(ginaspeech_3);
+                return oneof_stopping(ginaspeech_3, true);
             } else if(prog == 1) {
                 "~Please let me know if there's any news from the hospital,~
                 Gina says, trying her best not to break down into an
@@ -431,7 +431,7 @@ Object Gina "Gina"
                     hurt by your actions as much as her heart is hurt by
                     her daughter's illness.";
                 suspect = Gina;
-                print_ret (string) oneof_stopping(ginaspeech_1);
+                return oneof_stopping(ginaspeech_1, true);
             }
         ],
         after [;
@@ -634,7 +634,7 @@ Object Pauline "Pauline" Hospital
         Talk: paulinespeak(); rtrue;
         Kiss:
             if(Sunglasses has worn) {
-                print_ret (string) oneof_stopping(paulinekiss_1);
+                return oneof_stopping(paulinekiss_1, true);
             } else {
                 return oneof_stopping(paulinekiss_2, true);
             }
@@ -667,9 +667,9 @@ Array paulinespeak_2 table 1
 
 [ paulinespeak;
     if(Sunglasses has worn) {
-        print (string) oneof_stopping(paulinespeak_1), "^";
+        oneof_stopping(paulinespeak_1, true);
     } else if(prog == 0) {
-        print (string) oneof_stopping(paulinespeak_2), "^";
+        oneof_stopping(paulinespeak_2, true);
     } else if(prog == 1) {
         print  "~Please let me know if you find out about those test
             results,~ Pauline pleads.^";
@@ -789,8 +789,8 @@ Array leopoldask_1 table 1
     no matter how many times you ask me about them.~";
 
 [ leospeak;
-    if(Sunglasses has worn) print_ret (string) oneof_stopping(leopoldspeak_1);
-    print_ret (string) oneof_stopping(leopoldspeak_2);
+    if(Sunglasses has worn) return oneof_stopping(leopoldspeak_1, true);
+    oneof_stopping(leopoldspeak_2, true);
 ];
 
 Object Leopold "Leopold Craverly" CraverlyManor
@@ -825,14 +825,14 @@ Object Leopold "Leopold Craverly" CraverlyManor
                 "Leopold pushes you away. ~Forget it, Sid. I'm not one
                 of those young people who melts in half when a criminal
                 comes on to him.~";
-            print_ret (string) oneof_stopping(leopoldkiss_1);
+            return oneof_stopping(leopoldkiss_1, true);
         Talk:
             leospeak(); rtrue;
         Ask:
             if(second == 'jewel' or 'gem' or 'gems' or 'jewels') {
                 if(Sunglasses has worn && suspect ~= Gina) {
                     suspect = Leopold;
-                    print_ret (string) oneof_stopping(leopoldask_1);
+                    return oneof_stopping(leopoldask_1, true);
                 }
             }
         ], 
@@ -911,9 +911,8 @@ Array hallwaystring_1 table 1 "Pauline's" "Pauline's" "Janine's" "Pauline's";
 Object NorthHallway "North Hallway"
     with
         description [;
-            print_ret (string) oneof_thenrandom(hallwaystring_1),
-                " hospital room is west from here. 
-                The hallway continues south.";
+            oneof_thenrandom(hallwaystring_1);
+            " hospital room is west from here. The hallway continues south.";
        ],
        w_to Hospital,
        s_to HallwayIntersection,
@@ -1075,9 +1074,9 @@ Object FramedPhoto "framed photo" Shelves
             }
             if(second == Pauline) {
                 if(Sunglasses has worn) {
-                    print_ret (string) oneof_stopping(photo_pauline_1);
+                    return oneof_stopping(photo_pauline_1, true);
                 }
-                print_ret (string) oneof_stopping(photo_pauline_2);
+                return oneof_stopping(photo_pauline_2, true);
             }
             if(second == Gina) {
                 if(Sunglasses has worn) {
@@ -1086,7 +1085,7 @@ Object FramedPhoto "framed photo" Shelves
                         Gina eloquently states.";
                     } else if(suspect ~= Leopold) {
                         suspect = Gina;
-                        print_ret (string) oneof_stopping(ginaspeech_1);
+                        return oneof_stopping(ginaspeech_1, true);
                     } else {
                         "~Where did you get that photo of my daughter's
                         beloved golden retriever Wendell?~ Gina asks
@@ -1113,7 +1112,7 @@ Object FramedPhoto "framed photo" Shelves
                         least that dog will stay in the ground.'";
                     } else if(suspect ~= Gina) {
                         suspect = Leopold;
-                        print_ret (string) oneof_stopping(photo_leopold_1);
+                        return oneof_stopping(photo_leopold_1, true);
                     } else {
                         "~Why are you showing me this dog?~ Craverly asks, his
                         question as pointed as the tip of his snake-headed
@@ -1680,7 +1679,7 @@ Object Script "script" Table
                     ~Very good idea, Janine. I'll see what she has to say.~ 
                     You cough. ~I mean, Pauline.~";
                 } else if(prog == 2) {
-                    print_ret (string) oneof_stopping(script_1);
+                    return oneof_stopping(script_1, true);
                 } 
             }
         Examine:
