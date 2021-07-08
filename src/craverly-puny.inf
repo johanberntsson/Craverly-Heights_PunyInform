@@ -17,7 +17,8 @@ Serial "210707";
 Array UUID_ARRAY string "UUID://D2780FBF-CC11-4D25-98BB-827E8FCE4C7F//";
 #Ifdef UUID_ARRAY;#Endif;
 
-Constant STATUSLINE_SCORE; Statusline score;
+Constant STATUSLINE_TIME; Statusline time;
+!Constant STATUSLINE_SCORE; Statusline score;
 
 Constant NO_SCORE = 0;
 
@@ -1902,6 +1903,7 @@ Object Protagonist "you"
 [Initialise u1 u2;
     lookmode = 2; ! VERBOSE
     player = Protagonist;
+    SetTime(9*60+30, 1); ! 9:30 am, each turn 1 minute
     ! unicode is not available in v3
     ! for v5 (and v8) we need to check if the interpreter provides unicode
     has_unicode = 0;
