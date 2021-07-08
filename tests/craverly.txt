@@ -124,14 +124,14 @@ of sunglasses and a handgun.
 
 magnifying glass: Removed.
 framed photo: Removed.
-pair of sunglasses: Removed.
+sunglasses: Removed.
 handgun: Removed.
 
 
 
 > X GLASS
 
-Do you mean the pair of sunglasses or the magnifying glass?
+Do you mean the sunglasses or the magnifying glass?
 
 
 
@@ -560,7 +560,7 @@ Gina's Pizzeria is north from here. The hallway continues west.
 
 > WEAR SUNGLASSES
 
-You are now wearing the pair of sunglasses.
+You are now wearing the sunglasses.
 
 
 
@@ -833,7 +833,7 @@ Gina's Pizzeria is north from here. The hallway continues west.
 
 > REMOVE GLASSES
 
-You take off the pair of sunglasses.
+You take off the sunglasses.
 
 
 
@@ -916,7 +916,7 @@ There's a rack of shelves standing against this end of the hall.
 
 > WEAR GLASSES
 
-You are now wearing the pair of sunglasses.
+You are now wearing the sunglasses.
 
 
 
@@ -1057,7 +1057,7 @@ of sunglasses and a handgun.
 
 magnifying glass: Removed.
 framed photo: Removed.
-pair of sunglasses: Removed.
+sunglasses: Removed.
 handgun: Removed.
 
 
@@ -2103,7 +2103,7 @@ rack of shelves: That belongs where it is.
 
 magnifying glass: Removed.
 framed photo: Removed.
-pair of sunglasses: Removed.
+sunglasses: Removed.
 handgun: Removed.
 
 
@@ -2284,7 +2284,7 @@ Craverly Manor is south from here. The hallway continues east.
 
 > PUT ON GLASSES
 
-You are now wearing the pair of sunglasses.
+You are now wearing the sunglasses.
 
 
 
@@ -2824,7 +2824,7 @@ There's a rack of shelves standing against this end of the hall.
 
 magnifying glass: Removed.
 framed photo: Removed.
-pair of sunglasses: Removed.
+sunglasses: Removed.
 handgun: Removed.
 
 
@@ -2843,7 +2843,7 @@ A non-diegetic bulletin is posted on the wall.
 
 > WEAR GLASSES
 
-You are now wearing the pair of sunglasses.
+You are now wearing the sunglasses.
 
 
 
@@ -2904,7 +2904,7 @@ The break room is east from here. The hallway continues north.
 
 > REMOVE GLASSES
 
-You take off the pair of sunglasses.
+You take off the sunglasses.
 
 
 
@@ -3018,7 +3018,7 @@ Gina's Pizzeria is north from here. The hallway continues west.
 
 > WEAR GLASSES
 
-You are now wearing the pair of sunglasses.
+You are now wearing the sunglasses.
 
 
 
@@ -3073,7 +3073,7 @@ Craverly Manor is south from here. The hallway continues east.
 
 > REMOVE GLASSES
 
-You take off the pair of sunglasses.
+You take off the sunglasses.
 
 
 
@@ -3116,7 +3116,7 @@ Craverly Manor is south from here. The hallway continues east.
 
 > WEAR GLASSES
 
-You are now wearing the pair of sunglasses.
+You are now wearing the sunglasses.
 
 
 
@@ -3223,7 +3223,7 @@ There's a rack of shelves standing against this end of the hall.
 
 > REMOVE GLASSES
 
-You take off the pair of sunglasses.
+You take off the sunglasses.
 
 
 

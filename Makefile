@@ -15,5 +15,10 @@ inform:
 	mv craverly-puny.z8 bin
 	frotz bin/craverly-puny.z8
 
+abbrevations:
+	inform -r --opt TRANSCRIPT_FORMAT=1 +../lib src/craverly-puny.inf
+	python3 abbrevations.py -f
+	rm -f craverly-puny.z5
+
 clean:
-	rm -f bin/*
+	rm -f bin/* gametext.txt mygame_freq.zap

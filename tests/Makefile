@@ -5,7 +5,8 @@ runtests:
 	inform -D +../../lib -v3 ../src/craverly-puny.inf
 	frotz craverly-puny.z3 < craverly.cmd 
 	tail +6 craverly-puny.scr > craverly-puny.output
+	(wdiff craverly.txt craverly-puny.output > wdiff.txt; return 0);
 	wdiff -3 craverly.txt craverly-puny.output
 
 clean:
-	rm -f *z3 *scr *output *messages
+	rm -f *z3 *scr *output *messages wdiff.txt
