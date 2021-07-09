@@ -435,7 +435,7 @@ Object Gina "Gina"
             "You fire another bullet into Gina's dead body. ~I don't know why
             I did that,' you announce.";
         ],
-    has female proper animate;
+    has female proper animate transparent;
 
 [ gina1; 
     print 
@@ -597,7 +597,7 @@ Object Pauline "Pauline" Hospital
                 return oneof_stopping(paulinekiss_2, true);
             }
         ], 
-    has female proper animate;
+    has female proper animate transparent;
 
 Array paulinespeak_1 table 1
     ! ONE-OF
@@ -858,7 +858,7 @@ Object Leopold "Leopold Craverly" CraverlyManor
                 ". You're liable to hurt yourself.~";
             }
         ],
-    has proper animate;
+    has proper animate transparent;
 
 Object Cane "snake-headed cane" Leopold
     with
@@ -1694,7 +1694,7 @@ Object Lane "Lane" Breakroom
             "With the gun pointed right at Lane, you pull the trigger.
             Nothing happens.^^She sighs. ~Cut that out.~";
         ],
-    has female animate proper;
+    has female animate proper transparent;
 
 Object Blouse "pink blouse" Lane
     with
