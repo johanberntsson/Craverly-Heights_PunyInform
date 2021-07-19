@@ -10,24 +10,24 @@ Abbreviate " the " " you" "^^~" "Pauline" "You " " to " ", " " that" "Leopold " 
 Constant Story      "Craverly Heights";
 Constant Headline   "^An Interactive Fiction by Ryan Veeder, ported to PunyInform by Johan Berntsson^";
 
-Release 1;
-Serial "210707";
+Release 2;
+Serial "210720";
 
 ! This IFID is unique for this port
 Array UUID_ARRAY string "UUID://D2780FBF-CC11-4D25-98BB-827E8FCE4C7F//";
 #Ifdef UUID_ARRAY;#Endif;
 
-Constant STATUSLINE_TIME; Statusline time;
-!Constant STATUSLINE_SCORE; Statusline score;
-
 Constant NO_SCORE = 0;
 
-#iftrue (#version_number > 3);
-! undo and customizable statuslines are not available in v3
+#iftrue (#version_number == 3);
+Constant STATUSLINE_TIME; Statusline time;
+#ifnot;
+! undo is not available in v3. Also use no time/score in statusline
+Constant OPTIONAL_PROVIDE_UNDO;
 Constant OPTIONAL_SL_NO_SCORE;
 Constant OPTIONAL_SL_NO_MOVES;
-Constant OPTIONAL_PROVIDE_UNDO;
 #endif;
+Constant RUNTIME_ERRORS = 0; ! 0, 1 or 2. 0 = smallest file, 2 = most info
 
 Constant CUSTOM_ABBREVIATIONS;
 Constant OPTIONAL_NO_DARKNESS;
@@ -199,7 +199,7 @@ Global has_unicode;
         msg();
     else
         print (string) msg;
-    if(add_newline) @new_line;
+    if(add_newline) new_line;
     rtrue;
 ];
 
@@ -785,7 +785,7 @@ Object Leopold "Leopold Craverly" CraverlyManor
                 in those years, no matter what or who stands in his way.^";
             if(self hasnt dead && self hasnt general) {
                 give self general;
-                @new_line;
+                new_line;
                 leospeak();
             }
         ],
@@ -1314,13 +1314,14 @@ Verb 'shoot' 'fire'
     Never again.~";
 ];
 
-[ attempto deadnpc i w;
+[ attempto deadnpc i w n;
     if(consult_from == 0 && noun ~= 0 && noun has animate && noun has dead) deadnpc = noun;
     if(consult_from == 0 && second ~= 0 && second has animate && second has dead) deadnpc = second;
     if(deadnpc ~= 0 && action ~= ##Examine) {
         print "~I wish... I wish I could";
-        for(i = 0 : i < parse -> 1 : i++) {
-            w = (parse + 2 + i * 4) --> 0;
+        n = NumberWords();
+        for(i = 1 : i <= n : i++) {
+            w = WordValue(i);
             if(w == 'pauline') print " Pauline";
             else if(w == 'janine') print " Janine";
             else if(w == 'leopold') print " Leopold";
@@ -1444,7 +1445,7 @@ Object Table "table" Breakroom
             table_cnt = 0;
             LoopOverScope(CheckTableContents);
             if(table_cnt > 0) {
-                @new_line;
+                new_line;
                 <Search self>;
             }
             rtrue;
