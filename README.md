@@ -1,9 +1,11 @@
-# Craverly Heights (PunyInform)
+# Craverly Heights (PunyInform and Inform 6)
 
 Recently one game, Craverly Heights by Ryan Veeder, has been ported to
 several IF languages. The original was written in Inform 7, and 
 Linus Åkesson ported it to dialog. Henrik Åsman then ported it to ZIL,
 and now I have ported it to PunyInform.
+
+Fredrik Ramsberg then ported the PunyInform version to Inform 6, and both version are included in this repository. It is interesting to compare the PunyInform and Inform 6 version to see how small changes are usually needed to convert a game from one format to the other.
 
 I have tried to stay true to the original disposition of the source code to make it possible to compare the original Inform 7 vs Dialog vs ZIL vs PunyInform.
 

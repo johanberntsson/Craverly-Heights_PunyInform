@@ -40,7 +40,7 @@ MIN_SCORE = 15
 #
 # This indicates how many abbreviations should be conmputed
 # Anything bigger than 64 but smaller than 96 is possible with Inform 6.35, using "MAX_ABBREVS=96; MAX_DYNAMIC_STRINGS=0;"
-NUMBER_ABBR = 64
+NUMBER_ABBR = 96
 #
 # Set a minimum and maximum length (in number of ascii/unicode characters) for abbreviations
 # One-char strings can be 4 units long (for instance ";"), so you could in theory save 2 units per occurence; however at the date of writing, Inform refuses to abbreviate strings made of one ASCII characters.

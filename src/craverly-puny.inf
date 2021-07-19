@@ -1109,9 +1109,9 @@ Object FramedPhoto "framed photo" Shelves
  
 Object Sunglasses "sunglasses" Shelves
     with 
-        !name 'sunglasses' 'glasses' 'shades' 'glass' 'shade' 'pair' 'of' 'them',
+        !name 'sunglasses' 'glasses' 'shades' 'glass' 'shade' 'pair' 'of',
         parse_name [ i;
-            while(NextWord() == 'sunglasses' or 'glasses' or 'shades' or 'glass' or 'shade' or 'pair' or 'of' or 'them') i++;
+            while(NextWord() == 'sunglasses' or 'glasses' or 'shades' or 'glass' or 'shade' or 'pair' or 'of' ) i++;
             return i;
         ],
         article "a pair of",
