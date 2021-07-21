@@ -12,8 +12,8 @@ Constant Headline   "^An Interactive Fiction by Ryan Veeder. Inform 6 version
 	by Fredrik Ramsberg, based on Johan Berntsson's PunyInform version of the
 	game. ^";
 
-Release 1;
-Serial "210719";
+Release 2;
+Serial "210721";
 
 ! This IFID is unique for this port
 Array UUID_ARRAY string "UUID://62530F77-6B8D-41F0-9DB5-C7D4E4148F84//";
@@ -1411,18 +1411,11 @@ Object VendingMachine "vending machine" Breakroom
         ],
     has scenery;
 
-Global table_cnt;
-[ CheckTableContents obj;
-    if(obj in Table) table_cnt++;
-];
-
 Object Table "table" Breakroom
     with
         name 'table',
         describe [;
-            table_cnt = 0;
-            LoopOverScope(CheckTableContents);
-            if(table_cnt > 0) {
+            if(child(self)) {
                 new_line;
                 <Search self>;
             }
