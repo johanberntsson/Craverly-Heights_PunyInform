@@ -17,20 +17,23 @@ Serial "210720";
 Array UUID_ARRAY string "UUID://D2780FBF-CC11-4D25-98BB-827E8FCE4C7F//";
 #Ifdef UUID_ARRAY;#Endif;
 
+! Don't keep track of score, don't add "score" verb etc. Keeps the game smaller
 Constant NO_SCORE = 0;
 
 #iftrue (#version_number == 3);
-Constant STATUSLINE_TIME; Statusline time;
+Constant STATUSLINE_TIME;  ! We can't hide score/time in z3, so go with time
+Statusline time;           ! After all, this is a daytime TV soap
 #ifnot;
-! undo is not available in v3. Also use no time/score in statusline
-Constant OPTIONAL_PROVIDE_UNDO;
-Constant OPTIONAL_SL_NO_SCORE;
+Constant OPTIONAL_PROVIDE_UNDO; ! undo not avaible in z3, but possible here
+Constant OPTIONAL_SL_NO_SCORE; ! don't show score/moves in the statusline
 Constant OPTIONAL_SL_NO_MOVES;
+Constant STATUSLINE_SCORE;! Score is not shown, but defining STATUSLINE_SCORE
+Statusline score;         ! enables optimisations that make the binary smaller
 #endif;
 Constant RUNTIME_ERRORS = 0; ! 0, 1 or 2. 0 = smallest file, 2 = most info
 
 Constant CUSTOM_ABBREVIATIONS;
-Constant OPTIONAL_NO_DARKNESS;
+Constant OPTIONAL_NO_DARKNESS; ! simplified darkness keeps the game smaller
 #ifdef DEBUG;
 ! we need to run tests in debug mode since we need the transcript verb
 Constant OPTIONAL_EXTENDED_METAVERBS;
@@ -43,7 +46,7 @@ Include "globals.h";
 Attribute dead;
 Attribute onstage;
 Attribute backstage;
-Global prog = 0;
+Global prog = 0; ! prog isn't a good name, but that's what the original uses
 Global finalmessage;
 Global suspect = Pauline;
 Global sidshotleo = false;
@@ -52,6 +55,7 @@ Global sidshotleo = false;
     print (string) finalmessage;
 ];
 
+! We will replace these messages (see Puny's message.h)
 Constant MSG_WAKE_SUCCESS 1000;
 Constant MSG_WAIT_SUCCESS 1001;
 Constant MSG_TOUCH_SUCCESS 1002;
@@ -62,7 +66,10 @@ Constant MSG_STRONG_DEFAULT 1006;
 Constant MSG_MILD_DEFAULT 1007;
 Constant MSG_TAKE_SCENERY 1008;
 
+! and here we define the new messages/responses
 [ LibraryMessages p_msg p_arg1 p_arg2;
+    ! we don't use p_arg1, p_arg2 but some old Z-machine interpreters
+    ! won't work correctly without adding all expected arguments.
     switch(p_msg) {
     MSG_TAKE_SCENERY:
         if(location has onstage) "Moving that is someone else's job.";
@@ -115,8 +122,7 @@ Constant MSG_TAKE_SCENERY 1008;
             "You pause to consider the texture of ", (the) noun, ".";
         }
     }
-    p_arg1 = 0;
-    p_arg2 = 0;
+    p_arg1 = 0; p_arg2 = 0; ! just to avoid compiler warnings
 ];
 
 Include "puny.h";
@@ -144,7 +150,6 @@ Global has_unicode;
 [ italic_type; ];
 [ roman_type; ];
 #endif;
-
 
 ! This writes 3 * B039 (unicode 10020) if possible, otherwise "???"
 [ u10020;
@@ -213,6 +218,9 @@ Global has_unicode;
 
 ! Section - Miscellaneous Stuff
 
+! kiss is part of the extended verb set in PunyInform, but
+! to keep the game small I don't want to add the full extended
+! set, and instead define only kiss in the game instead.
 Verb 'kiss' 'embrace' 'hug'
     * creature                                  -> Kiss;
 
@@ -223,6 +231,7 @@ Verb 'kiss' 'embrace' 'hug'
     "Keep your mind on the game.";
 ];
 
+! game specific grammar
 Verb 'greet'
     *   creature -> Talk;
 
@@ -1433,22 +1442,18 @@ Object VendingMachine "vending machine" Breakroom
         ],
     has scenery;
 
-Global table_cnt;
-[ CheckTableContents obj;
-    if(obj in Table) table_cnt++;
-];
-
 Object Table "table" Breakroom
     with
         name 'table',
         describe [;
-            table_cnt = 0;
-            LoopOverScope(CheckTableContents);
-            if(table_cnt > 0) {
+            if(child(self)) {
                 new_line;
                 <Search self>;
+                !rtrue;
             }
-            rtrue;
+            ! rfalse would make more sense here, but is how it works
+            ! in the I7 original.
+            rtrue; 
         ],
         description"It's a piece of junk.",
     has static supporter;
