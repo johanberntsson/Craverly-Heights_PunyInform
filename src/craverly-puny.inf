@@ -1,17 +1,19 @@
 !% -~S
 !% $OMIT_UNUSED_ROUTINES=1
+!% $ZCODE_LESS_DICT_DATA=1
 !% $MAX_ABBREVS=96
-!% $MAX_DYNAMIC_STRINGS=0
+!% $ZCODE_MAX_INLINE_STRING=9999    ! Requires Inform 6.42
+!% $OMIT_SYMBOL_TABLE=1             ! Requires Inform 6.42, and can not be used with DEBUG
 
-Abbreviate " the " " you" "^^~" "Pauline" "You " " to " ", " " that" "Leopold " "Craverly" "ing " ". " "n't " "'s " " of " ".~^^" "Gina" " is " " Langridge" ",~" "her" " say" "his " "The" "?~" " and " "thing" " with " "jewels" " Wendell" " test results" " in" "'re " " again" "I " "meaningfully" "Sidney" "tion" "your " "menacingly" " for " ".~" " from " " have " " the" "~What" "ight" "ing" " are" "ed " "^^" "s." "er " "!~" " a " "Of course" "But " " expression" " can " "~I" " con" " no" " Doctor Langridg" "all" " as" "ould" "yourself" "ent" " she" " do" " out" "know" " it" "some" "e." " already" "the papers" " mysterious " " about " " what " " think" " prison" "you announce" " Janine" "I'm " " on" " re" " around" " be" "You" "ere we buried" "ough" "and" " hospital" "That" " look" ;
+ Abbreviate "where we buried the " "magnifying glass" "Craverly Heights" "Doctor Langridge" " test results" "meaningfully" "mysterious " " the papers" ",~ you say" "expression" "menacingly" " already " "Of course" "going to " "Langridge" " of the " "yourself" "Craverly" "Leopold " "Wendell" "Pauline" "Sidney" " your " "with " "jewels" " again" " that " "Janine" " here" " her " "?~^^~" "have " "thing" " that" " and " "This " "you " " the " " from" "think" " she " ".~^^~" "ould" "I'm " "some" ".~^^" "know" "Gina" ".^^~" " of " "n't " "ing " " con" "his " "ough" "ther" "You " " you" "'re " " is " "ight" " for" "But " " to " "says" "tion" " the" "'s " " do" " on" " as" ". ~" "out" "The" "all" "hat" " a " "an " "er " "re " " it" " in" " no" "ing" "ed " "ent" ", " "I " ".~" ",~" "e." ". " "^^" "s." "?~" "!~";
 
 ! Volume - Boring
 
 Constant Story      "Craverly Heights";
 Constant Headline   "^An Interactive Fiction by Ryan Veeder, ported to PunyInform by Johan Berntsson^";
 
-Release 2;
-Serial "210720";
+Release 3;
+Serial "231103";
 
 ! This IFID is unique for this port
 Array UUID_ARRAY string "UUID://D2780FBF-CC11-4D25-98BB-827E8FCE4C7F//";
@@ -43,6 +45,11 @@ Constant INITIAL_LOCATION_VALUE = Hospital;
 
 Include "globals.h";
 
+#Iffalse PUNYINFORM_MAJOR_VERSION == 5 && PUNYINFORM_MINOR_VERSION == 1;
+    Message fatalerror "This program is meant to be compiled with 
+        PunyInform v5.1.x. This is not it.";
+#Endif;
+
 Attribute dead;
 Attribute onstage;
 Attribute backstage;
@@ -56,15 +63,9 @@ Global sidshotleo = false;
 ];
 
 ! We will replace these messages (see Puny's message.h)
-Constant MSG_WAKE_SUCCESS 1000;
-Constant MSG_WAIT_SUCCESS 1001;
-Constant MSG_TOUCH_SUCCESS 1002;
-Constant MSG_SING_DEFAULT 1003;
-Constant MSG_SLEEP_DEFAULT 1004;
-Constant MSG_THINK_DEFAULT 1005;
-Constant MSG_STRONG_DEFAULT 1006;
-Constant MSG_MILD_DEFAULT 1007;
-Constant MSG_TAKE_SCENERY 1008;
+Constant MSG_WAIT_DEFAULT 1001;
+Constant MSG_TOUCH_DEFAULT 1002;
+Constant MSG_TAKE_SCENERY 1003;
 
 ! and here we define the new messages/responses
 [ LibraryMessages p_msg p_arg1 p_arg2;
@@ -74,31 +75,7 @@ Constant MSG_TAKE_SCENERY 1008;
     MSG_TAKE_SCENERY:
         if(location has onstage) "Moving that is someone else's job.";
         "That belongs where it is.";
-    MSG_STRONG_DEFAULT, MSG_MILD_DEFAULT:
-        if(location has backstage) 
-            "If that's what it takes to get you to calm down.";
-        "You better control yourself: This is daytime TV.";
-    MSG_THINK_DEFAULT:
-        if(location has backstage) 
-            "You pause to consider what choices have led to this situation.";
-        if(Sunglasses has worn) 
-            "You pause to think. But of course you, Sidney Langridge,
-            can think only of yourself.";
-        "~I need to think,~ you say, pressing your fingers against your
-        temples. ~The answer is staring me right in the face, I just know
-        it.~ You squint deeply, the weight of all Craverly Heights's
-        problems upon your shoulders.";
-    MSG_SLEEP_DEFAULT:
-        if(location has backstage) "There's a lot left to do today.";
-        "Not on the job.";
-    MSG_SING_DEFAULT:
-        if(location has backstage) "Not one of your talents.";
-        "They don't pay you enough.";
-    MSG_WAKE_SUCCESS:
-        if(location has backstage) "This is too stupid to be a dream.";
-        "~Maybe this is all a dream,~ you say, gazing into the distance,
-        but no answer comes.";
-    MSG_WAIT_SUCCESS:
+    MSG_WAIT_DEFAULT:
         if(location has onstage) {
             print "You glance around ";
             if(Sunglasses has worn)
@@ -108,7 +85,7 @@ Constant MSG_TAKE_SCENERY 1008;
             ".";
         }
         "Time passes.";
-    MSG_TOUCH_SUCCESS:
+    MSG_TOUCH_DEFAULT:
         if(location has backstage) {
             if(noun == player) "You feel fine.";
             if(noun has animate) 
@@ -122,7 +99,7 @@ Constant MSG_TAKE_SCENERY 1008;
             "You pause to consider the texture of ", (the) noun, ".";
         }
     }
-    p_arg1 = 0; p_arg2 = 0; ! just to avoid compiler warnings
+    p_arg1 = p_arg2; ! just to avoid compiler warnings
 ];
 
 Include "puny.h";
@@ -218,9 +195,10 @@ Global has_unicode;
 
 ! Section - Miscellaneous Stuff
 
-! kiss is part of the extended verb set in PunyInform, but
-! to keep the game small I don't want to add the full extended
-! set, and instead define only kiss in the game instead.
+! kiss, wake, think, sing, sleep, and curse words are all part of the extended
+! verb set in PunyInform, but to keep the game small I don't want to add the 
+! full extended set, and instead define the verbs I need in the game instead.
+
 Verb 'kiss' 'embrace' 'hug'
     * creature                                  -> Kiss;
 
@@ -229,6 +207,57 @@ Verb 'kiss' 'embrace' 'hug'
     if (RunLife(noun, ##Kiss) ~= 0) rfalse;
     if (noun == player) "If you think that'll help.";
     "Keep your mind on the game.";
+];
+
+Verb 'wake' 'awake' 'awaken'
+    *                                           -> Wake
+    * 'up'                                      -> Wake;
+
+[ WakeSub;
+    if(location has backstage) "This is too stupid to be a dream.";
+    "~Maybe this is all a dream,~ you say, gazing into the distance,
+        but no answer comes.";
+];
+
+Verb 'think'
+    *                                           -> Think;
+
+[ ThinkSub;
+    if(location has backstage) 
+        "You pause to consider what choices have led to this situation.";
+    if(Sunglasses has worn) 
+        "You pause to think. But of course you, Sidney Langridge,
+            can think only of yourself.";
+    "~I need to think,~ you say, pressing your fingers against your
+        temples. ~The answer is staring me right in the face, I just know
+        it.~ You squint deeply, the weight of all Craverly Heights's
+        problems upon your shoulders.";
+];
+
+Verb 'sing'
+    *                                           -> Sing;
+
+[ SingSub;
+    if(location has backstage) "Not one of your talents.";
+    "They don't pay you enough.";
+];
+
+Verb 'sleep' 'nap'
+    *                                           -> Sleep;
+
+[ SleepSub;
+    if(location has backstage) "There's a lot left to do today.";
+    "Not on the job.";
+];
+
+Verb 'bother' 'curses' 'darn' 'drat' 'shit' 'damn' 'fuck' 'sod'
+    *                                           -> Curse
+    * topic                                     -> Curse;
+
+[ CurseSub;
+    if(location has backstage) 
+        "If that's what it takes to get you to calm down.";
+    "You better control yourself: This is daytime TV.";
 ];
 
 ! game specific grammar
@@ -1276,10 +1305,10 @@ Verb 'shoot' 'fire'
     if(noun == Handgun) {
         if(target == FauxThing) {
             if(location has backstage) 
- 			    "You pull the trigger. Nothing. It doesn't even click.";
- 			else 
- 			    "With an expression of utter animalism on your face,
- 			    you raise your gun and fire a shot into the air." ;
+                 "You pull the trigger. Nothing. It doesn't even click.";
+             else 
+                 "With an expression of utter animalism on your face,
+                 you raise your gun and fire a shot into the air." ;
         } else {
             <<Shoot target>>;
         }
